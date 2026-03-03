@@ -42,27 +42,27 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "8",
-    question: "Can you help us with strategy, or do you only handle designs?",
+    question: "How do you ensure collaboration with us?",
     answer: "We help with both. Our team can provide strategic guidance alongside design execution. We'll work with you to refine your vision and ensure design serves your business goals."
   },
   {
     id: "9",
-    question: "How do you handle handoffs to developers?",
+    question: "Can you help us with strategy, or do you only handle designs?",
     answer: "We create detailed design specifications and maintain close collaboration with your development team. We provide all necessary assets, documentation, and remain available for clarifications during implementation."
   },
   {
     id: "10",
-    question: "What happens if we're not happy with the work?",
+    question: "How do you handle handoffs to developers?",
     answer: "Your satisfaction is our priority. We offer revision rounds and will iterate until you're happy with the results. We stand behind our work and are committed to your success."
   },
   {
     id: "11",
-    question: "Do you offer support after the project is delivered?",
+    question: "What happens if we’re not happy with the work?",
     answer: "Yes, we provide post-launch support to ensure smooth rollout and address any design-related adjustments. We can also discuss ongoing support arrangements based on your needs."
   },
   {
     id: "12",
-    question: "How do you stay ahead of design trends?",
+    question: "Do you offer support after the project is delivered?",
     answer: "We love what we do and it shows in our work. We stay ahead of trends to keep your brand fresh. Continuous learning and innovation are core to our process."
   }
 ];
