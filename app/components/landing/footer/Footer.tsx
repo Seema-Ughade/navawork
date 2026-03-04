@@ -31,7 +31,7 @@ export default function Footer() {
                 Contact Us
               </HoverButton>
             </Link>
-          <Link href="/career" passHref>
+          {/* <Link href="/career" passHref> */}
 
             <HoverButton
               href="#"
@@ -39,7 +39,7 @@ export default function Footer() {
             >
               Careers
             </HoverButton>
-          </Link>
+          {/* </Link> */}
 
             <HoverButton
               href="#"
@@ -47,7 +47,7 @@ export default function Footer() {
             >
               Support
             </HoverButton>
-          <Link href="/career" passHref>
+          {/* <Link href="/career" passHref> */}
 
             <HoverButton
               href="#"
@@ -55,7 +55,7 @@ export default function Footer() {
             >
               Careers
             </HoverButton>
-          </Link>
+          {/* </Link> */}
 
             <div className="hidden md:flex mt-2 flex-row items-center gap-1 justify-center md:justify-start">
               <span className="text-[#1B1B1B] ml-5 text-[12px] lg:text-[18px]">

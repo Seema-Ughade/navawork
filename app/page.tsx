@@ -9,27 +9,26 @@ import { GTMStrategyContainer } from "./components/landing/strategy-section/gtm-
 import RoadmapSection from "./components/landing/roadmap-section/roadmap-section";
 import HeroCTA from "./components/landing/HeroCTA";
 
-
 export default function Page() {
   return (
-    <>      
+    <>
       <Hero />
       <Service />
       <IndustryScroll />
       <ServicesShowcase />
       <GTMStrategyContainer />
-      <RoadmapSection />  
-{/* Mobile About Us */}
-<div className="block lg:hidden">
-  <AboutUs />
-</div>
-
+      <RoadmapSection />
+      {/* Mobile About Us */}
+      <div className="block lg:hidden">
+        <AboutUs />
+      </div>
       <OurWorkCard />
-{/* Desktop About Us */}
-<div className="hidden lg:block">
-  <AboutUs />
-</div>      <FAQSection />
-      <HeroCTA /> 
+      {/* Desktop About Us */}
+      <div className="hidden lg:block">
+        <AboutUs />
+      </div>
+      <FAQSection />
+      <HeroCTA />
     </>
   );
 }

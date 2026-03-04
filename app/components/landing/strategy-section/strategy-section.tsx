@@ -39,7 +39,7 @@ export function StrategySection({ section }: StrategySectionProps) {
     <section className="w-full lg:pt-8 pt-2 flex flex-col justify-center py-2 px-2 lg:px-16 bg-white  snap-start">
       {/* Header with number and title */}
       <div
-        className={`${section.headerBg} px-6 h-[24px] lg:h-[48px] mb-4 lg:mb-14 w-full robotoText font-semibold max-w-[1128px] mx-auto flex items-center`}
+        className={`${section.headerBg} px-6 h-[24px] lg:h-[48px] mb-4 lg:mb-4 w-full robotoText font-semibold max-w-[1128px] mx-auto flex items-center`}
       >
         <h2
           className={`robotoText lg:text-[24px] text-[12px] font-semibold ${section.headerTextColor}`}

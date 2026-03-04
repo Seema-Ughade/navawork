@@ -15,7 +15,7 @@ export default function CareerForm() {
             <input
               type="text"
               placeholder="Type your awesome name here"
-              className="w-full px-4  font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:border-transparent"
+              className="w-full px-4  font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none"
             />
 
             <svg
@@ -24,7 +24,7 @@ export default function CareerForm() {
               viewBox="0 0 40 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-3 top-2 "
+              className="absolute lg:w-[32px] lg:h-[32px] w-[20px] h-[20px]  right-3 top-2 "
             >
               <mask
                 id="mask0_124_1587"
@@ -53,7 +53,7 @@ export default function CareerForm() {
             <input
               type="email"
               placeholder="Stay connected with us"
-              className="w-full px-4  font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:border-transparent"
+              className="w-full px-4  font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none"
             />
             <svg
               width="32"
@@ -61,7 +61,7 @@ export default function CareerForm() {
               viewBox="0 0 32 32"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-3 top-2 text-gray-400"
+              className="absolute lg:w-[32px] lg:h-[32px] w-[20px] h-[20px]  right-3 top-2 text-gray-400"
             >
               <mask
                 id="mask0_1_7581"
@@ -94,7 +94,7 @@ export default function CareerForm() {
             <input
               type="url"
               placeholder="Show us your professional story"
-              className="w-full px-4  font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:border-transparent"
+              className="w-full px-4  font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none"
             />
             <svg
               width="32"
@@ -102,7 +102,7 @@ export default function CareerForm() {
               viewBox="0 0 32 32"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-3 top-2 text-gray-400"
+              className="absolute lg:w-[32px] lg:h-[32px] w-[20px] h-[20px]  right-3 top-2 text-gray-400"
             >
               <mask
                 id="mask0_1_7595"
@@ -131,7 +131,7 @@ export default function CareerForm() {
             <input
               type="url"
               placeholder="Drop the link to your proudest work"
-              className="w-full px-4  font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:border-transparent"
+              className="w-full px-4  font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none"
             />
             <svg
               width="32"
@@ -139,7 +139,7 @@ export default function CareerForm() {
               viewBox="0 0 32 32"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-3 top-2 text-gray-400"
+              className="absolute lg:w-[32px] lg:h-[32px] w-[20px] h-[20px]  right-3 top-2 text-gray-400"
             >
               <mask
                 id="mask0_1_7595"
@@ -168,25 +168,76 @@ export default function CareerForm() {
           <label className="block text-[14px] lg:text-[20px] text-[#615F5F] mb-2">
             Area of Expertise<span className="text-[#FF0000]">*</span>
           </label>
-          <select className="w-full px-4 py-3 font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none   bg-white ">
+            <div className="relative">
+          <select className="w-full appearance-none px-4 py-3 font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none   bg-white ">
             <option value="">Where do you excel?</option>
             <option value="design">Design</option>
             <option value="development">Development</option>
             <option value="product">Product</option>
             <option value="marketing">Marketing</option>
           </select>
+              {/* Custom Arrow Icon */}
+    <svg
+      width="15"
+      height="9"
+      viewBox="0 0 15 9"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="
+        absolute
+        right-4
+        top-1/2
+        -translate-y-1/2
+        w-[12px] h-[7px]
+        lg:w-[15px] lg:h-[9px]
+        pointer-events-none
+      "
+    >
+      <path
+        d="M7.0677 8.47899L0 0.99759L0.942427 0L7.0677 6.48381L13.193 0L14.1354 0.99759L7.0677 8.47899Z"
+        fill="#615F5F"
+      />
+    </svg>
+
         </div>
+          </div>
+
         <div>
           <label className="block text-[14px] lg:text-[20px] text-[#615F5F] mb-2">
             Experience<span className="text-[#FF0000]">*</span>
           </label>
-          <select className="w-full px-4 py-3 font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none  bg-white ">
+            <div className="relative">
+          <select className="w-full appearance-none px-4 py-3 font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none  bg-white ">
             <option value="">Your journey in years?</option>
             <option value="0-2">0-2 years</option>
             <option value="2-5">2-5 years</option>
             <option value="5-10">5-10 years</option>
             <option value="10+">10+ years</option>
           </select>
+                        {/* Custom Arrow Icon */}
+    <svg
+      width="15"
+      height="9"
+      viewBox="0 0 15 9"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="
+        absolute
+        right-4
+        top-1/2
+        -translate-y-1/2
+        w-[12px] h-[7px]
+        lg:w-[15px] lg:h-[9px]
+        pointer-events-none
+      "
+    >
+      <path
+        d="M7.0677 8.47899L0 0.99759L0.942427 0L7.0677 6.48381L13.193 0L14.1354 0.99759L7.0677 8.47899Z"
+        fill="#615F5F"
+      />
+    </svg>
+
+        </div>
         </div>
       </div>
 
@@ -199,7 +250,7 @@ export default function CareerForm() {
           <input
             type="url"
             placeholder="Your career story — share the link"
-            className="w-full px-4  font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] "
+            className="w-full px-4 focus:outline-none font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] "
           />
           <svg
             width="32"
@@ -207,7 +258,7 @@ export default function CareerForm() {
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="absolute right-3 top-2 text-gray-400"
+            className="absolute lg:w-[32px] lg:h-[32px] w-[20px] h-[20px]  right-3 top-2 text-gray-400"
           >
             <mask
               id="mask0_1_7595"
@@ -236,7 +287,7 @@ export default function CareerForm() {
         </label>
         <textarea
           placeholder="What draws you to Nava? Share what excites you about working with us."
-          className="w-full px-4 py-3 font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+          className="w-full px-4 py-3 font-light py-3 lg:text-[20px] text-[12px] border-[0.6px] border-[#D3D3D3] placeholder:text-[#615F5F] rounded-[8px] focus:outline-none resize-none"
           rows={8}
         />
       </div>

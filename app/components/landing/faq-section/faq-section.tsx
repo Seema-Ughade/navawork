@@ -95,14 +95,14 @@ const toggleFAQ = (id: string) => {
 
           {/* Right FAQ Items */}
           <div className="lg:col-span-2">
-            <div className="max-w-[760px] space-y-4">
+            <div className="max-w-[760px] space-y-4 lg:space-y-8">
               {faqItems.map((item) => (
                 <div
                   key={item.id}
                   className="border-[0.6px] border-[#D3D3D3] rounded-[8px] overflow-hidden bg-white "
                 >
                   <div
-                    className="w-full px-6 z-10 lg:py-4 py-3 flex items-center justify-between text-left bg-white"
+                    className="w-full px-6 z-10 lg:py-5 py-3 flex items-center justify-between text-left bg-white"
                   >
                     <h3 className="text-[#1B1B1B] robotoText text-[14px] lg:text-[20px] font-medium pr-4">
                       {item.question}

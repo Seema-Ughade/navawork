@@ -2,8 +2,7 @@ import CareerForm from './career-form'
 
 export default function CareerPage() {
   return (
-    <div className="lg:mt-[96px] bg-white relative overflow-hidden">
-      {/* Pink Gradient Background Blob */}
+    <div className="lg:w-[1440px] w-[412px] mx-auto bg-white relative overflow-hidden">
       {/* Pink Gradient Background Blob */}
 <div
   className="
@@ -14,11 +13,11 @@ export default function CareerPage() {
 
     /* Mobile */
     w-[101.57px] h-[101.57px]
-    top-[22.29px] left-[165px]
+    top-[22.29px] left-[155px]
 
     /* Desktop */
     lg:w-[355px] lg:h-[355px]
-    lg:top-[63px] lg:left-[596px]
+    lg:top-[63px] lg:left-[556px]
   "
 />
 

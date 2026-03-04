@@ -6,7 +6,7 @@ export default function Navlinks() {
   const links = ["Services", "Our Works", "Our Process", "About Us"];
 
   return (
-    <div className="flex w-[596px] h-[40px] items-center gap-7">
+    <div className="flex w-[596px] h-[40px] items-center gap-6">
       {links.map((link) => (
         <HoverButton
           key={link}

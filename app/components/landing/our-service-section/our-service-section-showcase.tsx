@@ -116,7 +116,7 @@ export default function ServicesShowcase() {
                     style={{
                       width: "164px",
                       height: "164px",
-                      top: "125px",
+                      top: "110px",
                       left: "0px",
                       zIndex: 20,
                     }}

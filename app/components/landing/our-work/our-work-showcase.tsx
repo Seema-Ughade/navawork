@@ -109,7 +109,7 @@ export default function PortfolioShowcase() {
         {/* Header */}
         <div className="text-center mb-8 lg:mb-16">
           <div className="flex justify-center mb-5">
-            <div className="inline-flex  lg:max-w-[172px] w-[80px] lg:h-[50px] h-[30px] items-center justify-center lg:px-6 px-2 lg:py-2 py-0 rounded-full bg-[#F5EAFD] border border-[#A23BEA]">
+            <div className="inline-flex  lg:w-[172px] w-[80px] lg:h-[50px] h-[30px] items-center justify-center lg:px-6 px-2 lg:py-2 py-0 rounded-full bg-[#F5EAFD] border border-[#A23BEA]">
               <span className="text-[12px] lg:text-[15px] robotoText text-[#9F1FFA]">Our Work</span>
             </div>
           </div>
