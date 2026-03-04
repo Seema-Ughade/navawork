@@ -104,17 +104,17 @@ export default function PortfolioShowcase() {
 
 
   return (
-    <section className="w-[1440px] mx-auto dark:bg-[#0a0a0a] pt-16 px-4">
+    <section className="w-full sm:w-[412px] lg:w-[1440px] mx-auto dark:bg-[#0a0a0a] pt-16 px-4">
       <div className="max-w-[1096px] mx-auto">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 lg:mb-16">
           <div className="flex justify-center mb-5">
-            <div className="inline-flex w-full max-w-[172px] h-[50px] items-center justify-center px-6 py-2 rounded-full bg-[#F5EAFD] border border-[#A23BEA]">
-              <span className="text-[15px] robotoText text-[#9F1FFA]">Our Work</span>
+            <div className="inline-flex  lg:max-w-[172px] w-[80px] lg:h-[50px] h-[30px] items-center justify-center lg:px-6 px-2 lg:py-2 py-0 rounded-full bg-[#F5EAFD] border border-[#A23BEA]">
+              <span className="text-[12px] lg:text-[15px] robotoText text-[#9F1FFA]">Our Work</span>
             </div>
           </div>
 
-          <h1 className="text-[#1B1B1B] dark:text-white robotoText font-semibold text-[48px] mb-8 tracking-tight">
+          <h1 className="text-[#1B1B1B] dark:text-white robotoText font-semibold text-[32px] lg:text-[48px] mb-2 lg:mb-8 tracking-tight">
             Crafted with Purpose
           </h1>
         </div>

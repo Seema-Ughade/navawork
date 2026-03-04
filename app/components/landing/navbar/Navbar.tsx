@@ -84,7 +84,7 @@ const Navbar = () => {
           </div>
         </div>
         {isMobileMenuOpen && (
-          <div className="md:hidden fixed bg-white w-[180px] h-[146px]  top-[121px] left-[223px] rounded-[12px] border-[0.6px] border-[#D3D3D3] ">
+          <div className="md:hidden absolute z-50 bg-white w-[180px] h-[146px]  top-[121px] left-[223px] rounded-[12px] border-[0.6px] border-[#D3D3D3] ">
             <div className="px-5 py-6">
               {/* Navigation Links */}
               <div className="mb-8 robotoText">

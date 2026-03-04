@@ -21,7 +21,7 @@ const toggleFAQ = (id: string) => {
   
 
   return (
-    <section className="w-[1440px] mx-auto dark:bg-[#0a0a0a] lg:py-16 py-8 px-6">
+    <section className="w-full sm:w-[412px] lg:w-[1440px] mx-auto dark:bg-[#0a0a0a] lg:py-16 py-8 px-4 lg:px-6">
       {/* Header */}
       <div className="max-w-[1080px] mx-auto mb-12">
         <div className="flex justify-center mb-6">
@@ -33,7 +33,7 @@ const toggleFAQ = (id: string) => {
             </div>
           </div>
         </div>
-        <h2 className="text-[#1B1B1B] dark:text-white font-semibold lg:text-[48px] text-[32px] robotoText text-center lg:mb-12 mb-6">
+        <h2 className="text-[#1B1B1B] dark:text-white font-semibold lg:text-[48px] text-[32px] robotoText text-center lg:mb-12 mb-2">
           All your Questions, Answered
         </h2>
 
@@ -79,14 +79,14 @@ const toggleFAQ = (id: string) => {
 
               {/* Buttons */}
               <div className="flex flex-col gap-6">
-                <button className="w-full bg-[#1B1B1B] text-[12px] lg:text-[18px] text-white h-[56px] w-[240px] rounded-full font-medium flex items-center justify-center gap-2 ">
+                <button className="w-full bg-[#1B1B1B] text-[12px] lg:text-[18px] text-white lg:h-[56px] h-[32px] w-[240px] rounded-full font-medium flex items-center justify-center gap-2 ">
                   <div className="flex gap-1">
-                    <Image src={image1} className="h-6 w-6 object-cover mr-2" alt={"image"}/>
+                    <Image src={image1} className="h-[14px] w-[14px] lg:h-6 lg:w-6 object-cover mr-2" alt={"image"}/>
                   </div>
                   Schedule a Call
                 </button>
-                <button className="w-full border border-[#D3D3D3] text-[12px] lg:text-[18px] text-[#1B1B1B]  h-[56px] w-[240px] rounded-full font-medium flex items-center justify-center gap-2 ">
-                    <Image src={image2} className="h-6 w-6 object-cover mr-2" alt={"image"}/>
+                <button className="w-full border border-[#D3D3D3] text-[12px] lg:text-[18px] text-[#1B1B1B] lg:h-[56px] h-[32px] w-[240px] rounded-full font-medium flex items-center justify-center gap-2 ">
+                    <Image src={image2} className="h-[14px] w-[14px] lg:h-6 lg:w-6 object-cover mr-2" alt={"image"}/>
                   Chat with us
                 </button>
               </div>
@@ -102,7 +102,7 @@ const toggleFAQ = (id: string) => {
                   className="border-[0.6px] border-[#D3D3D3] rounded-[8px] overflow-hidden bg-white "
                 >
                   <div
-                    className="w-full px-6 z-10 py-4 flex items-center justify-between text-left bg-white"
+                    className="w-full px-6 z-10 lg:py-4 py-3 flex items-center justify-between text-left bg-white"
                   >
                     <h3 className="text-[#1B1B1B] robotoText text-[14px] lg:text-[20px] font-medium pr-4">
                       {item.question}
@@ -113,7 +113,7 @@ const toggleFAQ = (id: string) => {
                       viewBox="0 0 15 9"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      className={`flex-shrink-0 transition-transform duration-300 ${
+                      className={`flex-shrink-0 w-[12px] h-[7px] lg:w-[15px] lg:h-[9px] transition-transform duration-300 ${
                         openItems[item.id] ? "rotate-180" : ""
                       }`}
                       onClick={() => toggleFAQ(item.id)}

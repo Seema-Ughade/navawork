@@ -6,7 +6,7 @@ import { StrategySection } from "./strategy-section";
 export function GTMStrategyContainer() {
   return (
     <>
-      <div className="w-[1440px] mx-auto  ">
+      <div className="w-full sm:w-[412px] lg:w-[1440px] lg:px-0 px-3 mx-auto  ">
         <section className="relative w-full  flex flex-col items-center justify-center px-4 sm:px-8 overflow-hidden snap-start bg-white">
           <div
             className=" absolute pointer-events-none w-[72.67px] h-[72.67px] top-[-18px] left-[351px] blur-[14.3px]  lg:w-[230px] lg:h-[220px] lg:top-[-90px] lg:left-auto lg:right-[-50px] lg:blur-[20px] "
@@ -26,12 +26,13 @@ export function GTMStrategyContainer() {
             </div>
 
             {/* Main heading */}
-            <h1 className="text-[#1B1B1B] font-semibold robotoText text-[#1B1B1B] text-[32px] lg:text-[48px] mb-3 lg:mb-6 leading-tight">
-              From Strategy to Market Domination
+            <h1 className="text-[#1B1B1B] sm:text-center font-semibold robotoText text-[#1B1B1B] text-[32px] lg:text-[48px] mb-3 lg:mb-6 leading-tight">
+              From Strategy to   <br className="block lg:hidden" />
+Market Domination
             </h1>
 
             {/* Subtitle description */}
-            <p className="w-full lg:max-w-[1047px] text-[#615F5F] text-[12px] lg:px-0 px-[4px] lg:text-[20px] robotoText mb-1  lg:mb-2 mx-auto leading-relaxed">
+            <p className="w-full lg:max-w-[1047px] sm:text-center text-[#615F5F] text-[12px] lg:px-0 px-[12px] lg:text-[20px] robotoText mb-1  lg:mb-2 mx-auto leading-relaxed">
               We don't just design brands—we launch them into the market with
               precision strategies that drive awareness, engagement, and revenue
               growth.

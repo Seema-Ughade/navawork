@@ -5,27 +5,27 @@ import { brandingCards } from "./our-service-section-card";
 
 export default function ServicesShowcase() {
   return (
-    <section className="py-2 pb-15 w-[1440px] mx-auto px-4 bg-[#F8F8F8]">
+    <section className="py-2 pb-15 w-full sm:w-[412px] lg:w-[1440px] mx-auto px-4 bg-[#F8F8F8]">
       <div className="max-w-[1124px] mx-auto">
         {/* Header */}
         <div className="text-center mb-6 lg:mb-16">
           <div className="inline-flex items-center mb-4 lg:mb-6">
-            <div className=" w-[152px] lg:h-[50px] h-[35px]  rounded-full flex items-center justify-center border-[0.6px] border-[#A23BEA] bg-[#F5EAFD]">
-              <span className="text-[15px] robotoText text-[#9F1FFA]">
+            <div className=" lg:w-[152px] w-[107px] lg:h-[50px] h-[35px]  rounded-full flex items-center justify-center border-[0.6px] border-[#A23BEA] bg-[#F5EAFD]">
+              <span className="lg:text-[15px] text-[12px]  robotoText text-[#9F1FFA]">
                 Our Services
               </span>
             </div>
           </div>
 
-          <h2 className="text-[#1B1B1B] w-[757px] mx-auto font-semibold robotoText lg:text-[48px] text-[32px] mb-1 tracking-tight">
+          <h2 className="text-[#1B1B1B] w-full sm:w-[412px] lg:w-[757px] mx-auto font-semibold robotoText lg:text-[48px] text-[32px] mb-1 tracking-tight">
             What we bring <br className="block lg:hidden" />
             to your table <br className="block lg:hidden" />
           </h2>
         </div>
 
         {/* Services Grid */}
-        <div className="min-h-screen bg-[#F8F8F8] p-4 lg:p-2">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 justify-items-center">
+        <div className="min-h-screen bg-[#F8F8F8] p-0 lg:p-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 justify-items-center">
             {brandingCards.map((card) => (
               <div
                 key={card.id}
@@ -144,7 +144,7 @@ export default function ServicesShowcase() {
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-[#1B1B1B] font-medium text-[20px] leading-[150%] mb-2">
+                  <h3 className="text-[#1B1B1B] font-medium lg:text-[20px] text-[24px] leading-[150%] mb-2">
                     {card.title}
                   </h3>
 

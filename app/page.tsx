@@ -7,10 +7,7 @@ import OurWorkCard from "./components/landing/our-work/our-work-showcase";
 import ServicesShowcase from "./components/landing/our-service-section/our-service-section-showcase";
 import { GTMStrategyContainer } from "./components/landing/strategy-section/gtm-strategy-container";
 import RoadmapSection from "./components/landing/roadmap-section/roadmap-section";
-import AnnouncementBar from "./components/landing/AnnouncementBar";
 import HeroCTA from "./components/landing/HeroCTA";
-import Footer from "./components/landing/footer/Footer";
-import Navbar from "./components/landing/navbar/Navbar";
 
 
 export default function Page() {
@@ -22,11 +19,17 @@ export default function Page() {
       <ServicesShowcase />
       <GTMStrategyContainer />
       <RoadmapSection />  
+{/* Mobile About Us */}
+<div className="block lg:hidden">
+  <AboutUs />
+</div>
+
       <OurWorkCard />
-      <AboutUs />
-      <FAQSection />
+{/* Desktop About Us */}
+<div className="hidden lg:block">
+  <AboutUs />
+</div>      <FAQSection />
       <HeroCTA /> 
-      <Footer />
     </>
   );
 }

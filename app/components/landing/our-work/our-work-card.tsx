@@ -17,9 +17,9 @@ export default function OurWorkCard({
   imageAlt,
 }: OurWorkCardProps) {
   return (
-    <div className="max-w-[548px] w-full border border-[#D3D3D3] rounded-[16px] py-6 px-12 bg-[#FCFCFC]">
+    <div className="max-w-[548px] w-full border border-[#D3D3D3] rounded-[16px] py-6 px-8 lg:px-12 bg-[#FCFCFC]">
       {/* Image Container */}
-      <div className="mb-6  overflow-hidden bg-[#FCFCFC] h-64">
+      <div className="lg:mb-6 mb-4 overflow-hidden bg-[#FCFCFC] h-64">
         <img
   src={typeof imageUrl === 'string' ? imageUrl : imageUrl.src}
           alt={imageAlt}
@@ -31,7 +31,7 @@ export default function OurWorkCard({
       <div className="space-y-4">
 {/* Title + Tags in same line */}
 <div className="flex items-start justify-between gap-4">
-  <h3 className="text-[#1B1B1B] font-medium robotoText text-[16px]">
+  <h3 className="text-[#1B1B1B] font-medium robotoText text-[12px] lg:text-[16px]">
     {title}
   </h3>
 
@@ -52,7 +52,7 @@ export default function OurWorkCard({
 </div>
 
 {/* Description */}
-<p className="text-[#615F5F] text-[14px] robotoText leading-relaxed">
+<p className="text-[#615F5F] text-[12px] lg:text-[14px] robotoText leading-relaxed">
   {description}
 </p>
       </div>

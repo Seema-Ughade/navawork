@@ -9,7 +9,7 @@ interface ValueCardProps {
 export function ValueCard({ title, description, icon: Icon }: ValueCardProps) {
   return (
     <div className="flex flex-col lg:px-0 px-2 gap-4">
-      <div className="flex items-start gap-6">
+      <div className="flex items-start gap-4 lg:gap-6">
         <div className="flex-shrink-0">
           <div className="flex h-12 w-12 lg:h-16 lg:w-16 items-center justify-center rounded-[8px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] text-white">
             <Icon className="h-8 w-8 text-white" />

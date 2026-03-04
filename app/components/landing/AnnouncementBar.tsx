@@ -7,10 +7,10 @@ export default function AnnouncementBar() {
   if (pathname !== "/") return null;
 
   return (
-    <div className="w-[1440px] mx-auto bg-gradient-to-r from-[#7415B7] to-[#B85DF8]">
+    <div className="w-full sm:w-[412px] lg:w-[1440px] mx-auto bg-gradient-to-r from-[#7415B7] to-[#B85DF8]">
       <div className="lg:min-h-[80px] h-[58px] mx-auto px-6 flex items-center justify-center relative">
         {/* Text */}
-        <p className="text-white text-[20px] leading-[150%] tracking-[0%] text-center font-medium robotoText">
+        <p className="text-white sm:text-[8px] text-[8px] lg:text-[20px] leading-[150%] tracking-[0%] text-center font-medium robotoText">
           Helping teams build clear brands and launch faster.
           <a
             href="#"

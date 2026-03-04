@@ -4,7 +4,7 @@ export default function Service() {
   return (
     <main className=" dark:bg-[#0a0a0a]">
       {/* Hero Section */}
-      <section className="w-[1440px] mx-auto py-1 px-4 md:py-10">
+      <section className="w-full sm:w-[412px] lg:w-[1440px] mx-auto py-1 px-4 md:py-10">
         <div className="max-w-[1440px] mx-auto">
           {/* Main Heading */}
           <div className="text-center mb-1 md:mb-12">
