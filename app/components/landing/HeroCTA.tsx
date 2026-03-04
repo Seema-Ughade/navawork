@@ -16,9 +16,11 @@ export default function HeroCTA() {
         </p>
 
         <div className="flex lg:flex-row flex-col gap-8 lg:max-w-[418px] w-full robotoText justify-center">
+                      <Link href="/contact-us" passHref>
 <HoverButton className="lg:max-w-[192px] w-full h-[32px] lg:h-[56px] text-[12px] lg:text-[19.9px] px-6 bg-white text-[#1B1B1B] rounded-[48px] font-medium">
   Contact Us
 </HoverButton>
+            </Link>
 
 <HoverButton className="lg:max-w-[192px] w-full h-[32px] lg:h-[56px] text-[12px] lg:text-[19.9px] px-6 border-2 border-white hover:border-[#ad6cdb] text-white font-medium rounded-[48px]">
   Schedule a Call

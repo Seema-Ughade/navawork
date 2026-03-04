@@ -6,7 +6,7 @@ import Logo from "../navbar/Logo";
 
 export default function Footer() {
   return (
-    <footer className="w-full sm:w-[412px] lg:w-[1440px] mx-auto bg-white border-t border-gray-200">
+    <footer className="w-full sm:w-[412px] lg:w-[1440px] mx-auto bg-white ">
       <div className="w-full  max-w-[1440px]  mx-auto px-6 md:px-8 md:h-[223px] py-8 md:py-12">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1  md:grid-cols-6 gap-2 md:gap-12 text-center md:text-left">
