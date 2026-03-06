@@ -23,10 +23,16 @@ export default function HeroCTA() {
             </HoverButton>
           </Link>
 
+<a
+  href="https://cal.com/navawork/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full"
+>
           <HoverButton className="w-full h-[32px] lg:h-[56px] lg:text-[19.9px] text-[12px] border-[0.92px] border-white hover:border-[#ad6cdb] text-white font-medium rounded-[48px] text-center flex items-center justify-center">
             Schedule a Call
           </HoverButton>
-
+</a>
 
   </div>
       </div>

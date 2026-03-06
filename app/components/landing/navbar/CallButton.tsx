@@ -3,7 +3,10 @@
 export default function CallButton() {
   return (
     <div className="top-[24px] left-[1176px]">
-      <button
+      <a
+        href="https://cal.com/navawork/30min"
+        target="_blank"
+        rel="noopener noreferrer"
         className="
           w-[106px] h-[32px]
           lg:w-[164px] lg:h-[48px]
@@ -14,6 +17,7 @@ export default function CallButton() {
           transition-colors duration-500 ease-in-out
         "
       >
+        
         <span
           className="
            robotoText w-[181px] h-[20px]
@@ -24,7 +28,7 @@ export default function CallButton() {
         >
           Schedule a Call
         </span>
-      </button>
+      </a>
     </div>
   );
 }

@@ -28,9 +28,17 @@ export function Hero() {
             Launch your Brand
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"   className="flex-shrink-0"> <mask id="mask0_154_1179" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24" > <rect width="24" height="24" fill="#D9D9D9" /> </mask> <g mask="url(#mask0_154_1179)"> <path d="M17.0788 12.5H5V11.5H17.0788L11.2865 5.70775L12 5L19 12L12 19L11.2865 18.2923L17.0788 12.5Z" fill="white" /> </g> </svg>
              </HoverButton>
+             <a
+  href="https://cal.com/navawork/15min"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+
           <HoverButton className="bg-white robotoText w-[240px] h-[56px] border border-[#D3D3D3] text-[#1B1B1B] rounded-[40px] text-[18px] font-medium flex items-center justify-center">
             Book GTM Strategy Call
           </HoverButton>
+          </a>
+
         </div>
 
         {/* Features Row */}

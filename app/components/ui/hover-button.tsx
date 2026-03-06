@@ -6,15 +6,21 @@ interface HoverButtonProps {
   children: React.ReactNode;
   href?: string;
   className?: string;
+  type?: "button" | "submit" | "reset";
+  disabled?: boolean; 
 }
 
 export function HoverButton({
   children,
   href,
   className = '',
+  type = "button",
+  disabled = false, 
 }: HoverButtonProps) {
   return (
     <button
+      type={type}
+      disabled={disabled} 
       className={`
         relative overflow-hidden
         transition-colors duration-300

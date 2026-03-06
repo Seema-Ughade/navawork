@@ -79,13 +79,18 @@ const toggleFAQ = (id: string) => {
 
               {/* Buttons */}
               <div className="flex flex-col gap-6">
-                <button className="w-full bg-[#1B1B1B] text-[12px] lg:text-[18px] text-white lg:h-[56px] h-[32px] w-[240px] rounded-full font-medium flex items-center justify-center gap-2 ">
+                                 <a
+  href="https://cal.com/navawork/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+ className="w-full bg-[#1B1B1B] text-[12px] lg:text-[18px] text-white lg:h-[56px] h-[32px] w-[240px] rounded-full font-medium flex items-center justify-center gap-2 ">
                   <div className="flex gap-1">
                     <Image src={image1} className="h-[14px] w-[14px] lg:h-6 lg:w-6 object-cover mr-2" alt={"image"}/>
                   </div>
+
                   Schedule a Call
-                </button>
-                <button className="w-full border border-[#D3D3D3] text-[12px] lg:text-[18px] text-[#1B1B1B] lg:h-[56px] h-[32px] w-[240px] rounded-full font-medium flex items-center justify-center gap-2 ">
+
+</a>                <button className="w-full border border-[#D3D3D3] text-[12px] lg:text-[18px] text-[#1B1B1B] lg:h-[56px] h-[32px] w-[240px] rounded-full font-medium flex items-center justify-center gap-2 ">
                     <Image src={image2} className="h-[14px] w-[14px] lg:h-6 lg:w-6 object-cover mr-2" alt={"image"}/>
                   Chat with us
                 </button>

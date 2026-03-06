@@ -23,14 +23,17 @@ export default function CareerPage() {
 
 
 
-      <div className="max-w-7xl mx-auto px-6 lg:py-16 py-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 lg:py-11 py-8 relative z-10">
         {/* Careers Badge */}
-        <div className="flex justify-center mb-6 lg:mb-8">
-          <div className="inline-flex items-center justify-center lg:w-[164px] w-[114px] lg:h-[50px] h-[28px] gap-2 lg:px-6 px-6 py-2 rounded-full border-[0.6px] border-[#A23BEA] bg-[#F5EAFD]">
-            <span className="text-[#FFD700] h-[13px] w-[13px] ">✦</span>
-            <span className="lg:text-[15px] text-[12px] font-medium robotoText text-[#9F1FFA]">Careers</span>
-          </div>
-        </div>
+{/* Careers Badge */}
+<div className="flex justify-center">
+  <div className="inline-flex mt-3 lg:w-[164px] lg:h-[50px] sm:h-[28px] h-[28px] items-center justify-center mb-4 px-[20px] lg:py-[12px] py-[5px] rounded-[32px] bg-[#F5EAFD] border-[0.6px] border-[#A23BEA]">
+    <div className="w-2 h-2 bg-[#FFD700] rotate-45 mr-2 flex-shrink-0" />
+    <span className="lg:text-[15px] text-[12px] robotoText text-[#9F1FFA]">
+      Careers
+    </span>
+  </div>
+</div>
 
         {/* Main Heading */}
         <div className="text-center mb-12">
