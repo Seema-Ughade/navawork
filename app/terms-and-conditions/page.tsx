@@ -14,7 +14,7 @@ export default function TermsAndConditions() {
         <div className="relative max-w-[1127px] px-4 sm:px-4 lg:px-6 mx-auto mb-12 mt-2 lg:mt-24 text-center">
             {/*  Badge */}
             <div className="flex justify-center">
-            <div className="inline-flex mt-3 lg:w-[233px] lg:h-[50px] sm:h-[28px] h-[28px] items-center justify-center mb-4 px-[20px] lg:py-[12px] py-[5px] rounded-[32px] bg-[#F5EAFD] border-[0.6px] border-[#A23BEA]">
+            <div className="inline-flex mt-4 lg:mt-0 lg:w-[233px] lg:h-[50px] sm:h-[28px] h-[28px] items-center justify-center mb-4 px-[20px] lg:py-[12px] py-[5px] rounded-[32px] bg-[#F5EAFD] border-[0.6px] border-[#A23BEA]">
                 <div className="w-2 h-2 bg-[#FFD700] rotate-45 mr-2 flex-shrink-0" />
                 <span className="lg:text-[15px] text-[12px] robotoText text-[#9F1FFA]">
                 Terms and Conditions

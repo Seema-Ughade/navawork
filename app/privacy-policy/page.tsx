@@ -130,11 +130,11 @@ export default function PrivacyPolicy() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-[12px] lg:text-[20px] text-[#615F5F] px-8 lg:px-0 text-center mb-6 lg:mb-12 leading-relaxed">
+            <p className="text-[12px] lg:text-[20px] text-[#615F5F] px-8 lg:px-0 text-center mb-6 lg:lg:mb-12 mb-6 leading-relaxed">
 At Nava Work , we value your privacy and are committed to protecting your personal information. This privacy policy explains what data we collect, why we collect it, and how we use it.            </p>
 
             {/* Last Updated Card */}
-<div className="flex items-center gap-4 lg:mb-12 mb-8 bg-white/70 rounded-[8px] ">
+<div className="flex items-center gap-4 lg:lg:mb-12 mb-6 mb-4 bg-white/70 rounded-[8px] ">
 
   {/* Icon Box */}
   <div className="bg-gradient-to-b from-[#D297FB] to-[#7415B7] 
@@ -155,12 +155,12 @@ At Nava Work , we value your privacy and are committed to protecting your person
 
 </div>
             {/* What We Collect Section */}
-            <div className="lg:mb-16 mb-12">
+            <div className="lg:mb-16 mb-4">
               <h2 className="text-[14px] lg:text-[20px] robotoText font-medium text-[#1B1B1B] mb-2 lg:mb-4">What we collect?</h2>
               <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px] mb-8">We may collect the following types of information :</p>
 
               {/* Personal Information */}
-              <div className="mb-12">
+              <div className="lg:mb-12 mb-6">
                 <h3 className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] mb-2 lg:mb-3">Personal Information</h3>
                 <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px] mb-6">Provided directly by you</p>
                 <div className="space-y-6">
@@ -176,9 +176,9 @@ At Nava Work , we value your privacy and are committed to protecting your person
                   })}
                 </div>
               </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
               {/* Project-Related Information */}
-              <div className="mb-12">
+              <div className="lg:mb-12 mb-6">
                 <h3 className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] mb-3">Project-Related Information</h3>
                 <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px] mb-6">When you contact us or request services :</p>
                 <div className="space-y-8">
@@ -194,7 +194,7 @@ At Nava Work , we value your privacy and are committed to protecting your person
                   })}
                 </div>
               </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
               {/* Website Usage Information */}
               <div>
@@ -214,10 +214,10 @@ At Nava Work , we value your privacy and are committed to protecting your person
                 </div>
               </div>
             </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
             {/* How We Use Your Information Section */}
-            <div className="lg:mb-16 mb-12 ">
+            <div className="lg:mb-16 lg:mb-12 mb-6 ">
               <h2 className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] mb-3">How We Use Your Information</h2>
               <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px] mb-6">We use your data to :</p>
               <div className="space-y-6">
@@ -233,10 +233,10 @@ At Nava Work , we value your privacy and are committed to protecting your person
                 })}
               </div>
             </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
             {/* How We Protect Your Information Section */}
-            <div className="lg:mb-16 mb-12 ">
+            <div className="lg:mb-16 lg:mb-12 mb-6 ">
               <h2 className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] mb-3">How We Protect Your Information</h2>
               <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px] mb-6">We implement modern security measures to :</p>
               <div className="space-y-6">
@@ -252,10 +252,10 @@ At Nava Work , we value your privacy and are committed to protecting your person
                 })}
               </div>
             </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
             {/* Sharing of Information Section */}
-            <div className="lg:mb-16 mb-12">
+            <div className="lg:mb-16 lg:mb-12 mb-6">
               <h2 className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] mb-3">Sharing of Information</h2>
               <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px] mb-6">We may share information only :</p>
               <div className="space-y-6">
@@ -271,13 +271,13 @@ At Nava Work , we value your privacy and are committed to protecting your person
                 })}
               </div>
             </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
             {/* Cookies & Website Analytics Section */}
-            <div className="lg:mb-16 mb-12">
+            <div className="lg:mb-16 lg:mb-12 mb-6">
               <h2 className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] mb-3">Cookies & Website Analytics</h2>
               <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px] mb-6">Our website may use cookies to :</p>
-              <div className="space-y-6 mb-12">
+              <div className="space-y-6 lg:mb-12 mb-6">
                 {cookiesItems.map((item, index) => {
                   return (
                     <div key={index} className="flex items-center gap-4">
@@ -289,7 +289,7 @@ At Nava Work , we value your privacy and are committed to protecting your person
                   );
                 })}
               </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
               {/* Communications Subsection */}
               <h3 className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] mb-4">Communications</h3>
@@ -307,10 +307,10 @@ At Nava Work , we value your privacy and are committed to protecting your person
                 })}
               </div>
             </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
             {/* Third-Party Links Section */}
-            <div className="lg:mb-16 mb-12">
+            <div className="lg:mb-16 lg:mb-12 mb-6">
               <h2 className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] mb-6">Third-Party Links</h2>
               <div className="flex items-start gap-4">
                 <div className="bg-gradient-to-b from-[#D297FB] to-[#7415B7] p-3 rounded-lg text-white flex-shrink-0 flex items-center justify-center  w-[48px] h-[48px] lg:w-[64px] lg:h-[64px]">
@@ -318,10 +318,10 @@ At Nava Work , we value your privacy and are committed to protecting your person
                 <p className="robotoText text-[14px] lg:text-[20px] text-[#615F5F] mb-3">Our website may contain links to third-party platforms (e.g., Behance, Dribbble, LinkedIn). We’re not responsible for their privacy policies or data handling practices.</p>
               </div>
             </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
             {/* Children's Privacy Section */}
-            <div className="lg:mb-16 mb-12">
+            <div className="lg:mb-16 lg:mb-12 mb-6">
               <h2 className="font-medium robotoText text-[20px] text-[#1B1B1B] mb-6">Children's Privacy</h2>
               <div className="flex items-start gap-4">
                 <div className="bg-gradient-to-b from-[#D297FB] to-[#7415B7] p-3 rounded-lg text-white flex-shrink-0 flex items-center justify-center  w-[48px] h-[48px] lg:w-[64px] lg:h-[64px]">
@@ -330,10 +330,10 @@ At Nava Work , we value your privacy and are committed to protecting your person
                 <p className="robotoText lg:text-[20px] text-[14px] text-[#615F5F] mb-3">Our services are not directed toward children under 13. We do not knowingly collect data from minors.</p>
               </div>
             </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
             {/* Changes to This Policy Section */}
-            <div className="lg:mb-16 mb-12 ">
+            <div className="lg:mb-16 lg:mb-12 mb-6 ">
               <h2 className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] mb-6">Changes to This Policy</h2>
               <div className="flex items-start gap-4">
                 <div className="bg-gradient-to-b from-[#D297FB] to-[#7415B7] p-3 rounded-lg text-white flex-shrink-0 flex items-center justify-center  w-[48px] h-[48px] lg:w-[64px] lg:h-[64px]">
@@ -341,7 +341,7 @@ At Nava Work , we value your privacy and are committed to protecting your person
                 <p className="robotoText text-[14px] lg:text-[20px] text-[#615F5F] mb-3">We may update this privacy policy from time to time. The latest version will always be available on this page.</p>
               </div>
             </div>
-              <hr className="border-t-[0.6px] border-[#D3D3D3] mb-12" />
+              <hr className="border-t-[0.6px] border-[#D3D3D3] lg:mb-12 mb-6" />
 
             {/* Contact Us Section */}
             <div className="">
