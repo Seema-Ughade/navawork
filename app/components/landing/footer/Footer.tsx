@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="hidden md:flex md:col-span-2"></div>
 
           {/* Middle Column */}
-          <div className="flex  w-full md:w-[156px]  robotoText lg:flex-col flex-row gap-0 md:gap-3 items-center justify-center md:items-start">
+          <div className="flex w-full md:w-[156px] robotoText lg:flex-col flex-row gap-0 md:gap-1 items-center justify-center md:items-start">
             <Link href="/contact-us" passHref>
               <HoverButton className="text-[#1B1B1B] py-2.5 lg:lg:px-5 px-3 lg:text-[18px] text-[12px]">
                 Contact Us
@@ -40,12 +40,15 @@ export default function Footer() {
               </HoverButton>
             </Link>
 
+            <Link href="/support" passHref>
             <HoverButton
               href="#"
               className="text-[#1B1B1B]  py-2.5 lg:px-5 px-3 lg:hidden lg:text-[18px] text-[12px]"
             >
               Support
             </HoverButton>
+            </Link>
+
             <Link href="/career" passHref>
               <HoverButton
                 href="#"
@@ -64,26 +67,33 @@ export default function Footer() {
 
           {/* Right Column */}
           <div className="flex lg:flex-col  flex-row robotoText justify-center gap-0 md:gap-3 items-center md:items-start">
+            <Link href="/support" passHref>
             <HoverButton
               href="#"
               className="text-[#1B1B1B] py-2.5 lg:px-5 px-3 hidden md:block lg:text-[18px] text-[12px]"
             >
               Support
             </HoverButton>
-
+            </Link>
+            
+            <Link href="/terms-and-conditions" passHref>
             <HoverButton
               href="#"
               className="text-[#1B1B1B] py-2.5 lg:px-5 px-3 lg:text-[18px] text-[12px]"
             >
               Terms of Service
             </HoverButton>
+            </Link>
 
+            <Link href="/privacy-policy" passHref>
             <HoverButton
               href="#"
               className="text-[#1B1B1B] py-2.5 lg:px-5 px-3 lg:text-[18px] text-[12px]"
             >
               Privacy Policy
             </HoverButton>
+            </Link>
+
           </div>
         </div>
 

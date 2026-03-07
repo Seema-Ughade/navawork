@@ -24,7 +24,6 @@ export default function CareerPage() {
 
 
       <div className="max-w-7xl mx-auto px-6 lg:py-11 py-8 relative z-10">
-        {/* Careers Badge */}
 {/* Careers Badge */}
 <div className="flex justify-center">
   <div className="inline-flex mt-3 lg:w-[164px] lg:h-[50px] sm:h-[28px] h-[28px] items-center justify-center mb-4 px-[20px] lg:py-[12px] py-[5px] rounded-[32px] bg-[#F5EAFD] border-[0.6px] border-[#A23BEA]">
