@@ -55,7 +55,7 @@ export function IndustryScroll() {
   };
 
   return (
-    <div className="bg-[#F8F8F8] py-10">
+    <div className="">
     <div className="w-full sm:w-[412px] lg:w-[1440px] mx-auto lg:min-h-[210px] h-[130px]  bg-[#1B1B1B]">
       {/* Title */}
       <h2 className="text-white robotoText text-center h-[31px] lg:py-12 py-6 lg:text-[24px] text-[12px] font-medium py-8">

@@ -1,8 +1,10 @@
 import Image from "next/image";
 import logo from "@/public/logo.png";
+import Link from "next/link";
 
 const Logo = () => {
   return (
+    <Link href="/">
 <div className="relative
     w-[156px] h-[24px]
     top-0 left-0
@@ -16,6 +18,7 @@ const Logo = () => {
     className="object-cover"  
   />
 </div>
+</Link> 
   );
 };
 

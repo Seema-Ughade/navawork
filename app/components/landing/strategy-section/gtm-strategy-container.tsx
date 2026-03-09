@@ -44,7 +44,7 @@ Market Domination
           <section
             key={section.id}
             // className="relative w-full flex flex-col items-center justify-center px-4 sm:px-8 bg-white snap-start"
-              className="sticky top-3 bg-white w-full flex items-center justify-center bg-white"
+              className="sticky top-40 bg-white w-full flex items-center justify-center bg-white"
 
           >
             <StrategySection section={section} />

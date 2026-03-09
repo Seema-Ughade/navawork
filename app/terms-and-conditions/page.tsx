@@ -34,10 +34,10 @@ export default function TermsAndConditions() {
 We believe great work starts with clarity. These guidelines outline how we collaborate, communicate, and move projects forward—ensuring every step is smooth, transparent, and focused on delivering our best outcomes for you.          </p>
         {/* Scope of Services */}
         <div className='max-w-[1127px] text-left pb-8 mx-auto'>
-          <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] lg:mt-16 mt-8  mb-6">Scope of Services</h2>
+          <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] lg:mt-[7px]6 mt-8  mb-6">Scope of Services</h2>
           <div className="space-y-0 text-[12px] lg:text-[20px] text-[#615F5F]">
             <p>We provide design, branding, digital strategy, and creative solutions as agreed upon in project proposals, quotations, or statements of work.</p>
-            <p>Service timelines, deliverables, and pricing are defined before the project begins.</p>
+            <p className='mt-[7px]'>Service timelines, deliverables, and pricing are defined before the project begins.</p>
           </div>
         </div>
               <hr className="border-t-[0.6px] max-w-[1127px] mx-auto border-[#D3D3D3] mb-12" />
@@ -52,19 +52,19 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Payments & Billing</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Payments must be made according to the agreed milestones or schedule.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Projects typically begin after an initial advance payment.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Delayed payments may result in paused work or delayed delivery.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Any third-party costs (fonts, plugins, stock assets, printing, etc.) will be billed separately if required.</span>
             </li>
           </ul>
@@ -76,15 +76,15 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Revisions & Feedback</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Each project includes a reasonable number of revision cycles as mentioned in the proposal.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Additional changes beyond agreed scope may incur extra charges.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Feedback should be shared within the mutually agreed timeline to avoid delays.</span>
             </li>
           </ul>
@@ -96,15 +96,15 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Timeline & Delivery</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Project timelines depend on client responsiveness, revisions, and approvals.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">We do our best to deliver on time, but delays due to dependencies are mutually understood.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Urgent requests may require additional fees.</span>
             </li>
           </ul>
@@ -116,15 +116,15 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Content & Materials Provided by Client</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">You are responsible for supplying accurate text, images, logos, or brand assets.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">You confirm that you have rights to use any content you provide us.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">We are not liable for copyright issues arising from client-supplied materials.</span>
             </li>
           </ul>
@@ -136,15 +136,15 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Ownership & Intellectual Property</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Final approved designs become the client’s property after full payment.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
-              <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Drafts, unused concepts, and working files not selected remain the property of Nava Work.</span>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
+              <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Drafts, unused concepts, and working files not selected remain the property of NavaWork.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Developers and design source files (e.g., raw Figma files) may be shared on request at an additional cost.</span>
             </li>
           </ul>
@@ -156,7 +156,7 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Portfolio Usage</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">We may showcase the completed work in our portfolio, social media, or case studies unless otherwise agreed in writing.</span>
             </li>
           </ul>
@@ -168,11 +168,11 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Confidentiality</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">We respect your privacy and confidentiality.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Any sensitive business, strategic, or project information shared with us will remain strictly confidential.</span>
             </li>
           </ul>
@@ -184,11 +184,11 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Website Use</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">You agree not to misuse our website, data, or content.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Any unauthorized reproduction of our work is prohibited.</span>
             </li>
           </ul>
@@ -200,11 +200,11 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Cancelation Policy</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">If a project is canceled mid-way, the amount corresponding to completed work will be billed.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Advance payments are non-refundable once work has begun.</span>
             </li>
           </ul>
@@ -217,11 +217,11 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Liability</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">We are not liable for indirect losses such as loss of revenue, reputation, or third-party issues.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Once work has started, advance payments cannot be refunded.</span>
             </li>
           </ul>
@@ -233,11 +233,11 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Third-Party Dependencies</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">We may rely on third-party platforms, printers, developers, hosting providers, or assets.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Delays or issues from third parties are beyond our control.</span>
             </li>
           </ul>
@@ -249,7 +249,7 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Dispute Resolution</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">In the event of a disagreement, both parties agree to attempt resolution through discussion before any legal action.</span>
             </li>
           </ul>
@@ -261,11 +261,11 @@ We believe great work starts with clarity. These guidelines outline how we colla
           <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-6">Changes to These Terms</h2>
           <ul className="space-y-4">
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">We may update or modify these terms periodically.</span>
             </li>
             <li className="flex gap-4">
-              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-1 flex-shrink-0"></div>
+              <div className="w-[16px] h-[16px] bg-gradient-to-b from-[#D297FB] to-[#7415B7] rounded-full mt-[7px] flex-shrink-0"></div>
               <span className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText">Any changes will be posted on our website and will take effect immediately.</span>
             </li>
           </ul>
@@ -274,10 +274,11 @@ We believe great work starts with clarity. These guidelines outline how we colla
 
         {/* Contact Us */}
         <div className="">
-          <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-8">Contact Us</h2>
-          <p className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText mb-8">If you have any questions about this Privacy Policy or how your data is handled, contact us at :</p>
+          <h2 className="text-[#1B1B1B] robotoText font-medium text-[14px] lg:text-[20px] mb-4">Contact Us</h2>
+          <p className="lg:text-[20px] text-[12px] text-[#615F5F] robotoText mb-3">If you have any questions about this Privacy Policy or how your data is handled, contact us at :</p>
+              <hr className="border-t-[0.6px] max-w-[1127px] mx-auto border-[#D3D3D3] mb-8" />
 
-          <div className="space-y-6">
+          <div className="space-y-8">
             {/* Email Card */}
             <div className="flex items-start gap-4">
               <div className="bg-gradient-to-b from-[#D297FB] to-[#7415B7] p-3 rounded-lg text-white flex-shrink-0 flex items-center justify-center  w-[48px] h-[48px] lg:w-[64px] lg:h-[64px]">
@@ -285,7 +286,7 @@ We believe great work starts with clarity. These guidelines outline how we colla
               </div>
               <div>
                 <p className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] text-sm lg:text-[20px] mb-3">Email</p>
-                <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px]">info@nava.design</p>
+                <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px]">support@navawork.com</p>
               </div>
             </div>
             {/* Phone Card */}

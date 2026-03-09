@@ -48,45 +48,45 @@ export const brandingCards: BrandingCardData[] = [
   },
   {
     id: 2,
-    title: "UI/UX Design",
+    title: "Product Design",
     description:
-      "Design intuitive interfaces that users love and trust.",
+      "Turn ideas into market-ready products with user-centered design and innovation.",
     frontImage: image3,
     backImage: image4,
     icons: [icon2, icon10], 
   },
   {
     id: 3,
-    title: "Product Design",
+    title: "Marketing Design",
     description:
-      "Turn ideas into delightful digital products.",
+      "Build a memorable brand through strategic design and visual storytelling.",
     frontImage: image5,
     backImage: image6,
     icons: [icon2, icon3, icon1], 
   },
   {
     id: 4,
-    title: "Web Design",
+    title: "Product Development",
     description:
-      "Create responsive websites that convert visitors into customers.",
+      "Data-driven market strategies to accelerate growth and enhance your business.",
     frontImage: image8,
     backImage: image7,
     icons: [icon4, icon5, icon2], 
   },
   {
     id: 5,
-    title: "Visual Design",
+    title: "Investment Pitch Deck",
     description:
-      "Craft visuals that communicate clearly and beautifully.",
+      "Crafting compelling narratives that turn ideas into investor-ready presentations.",
     frontImage: image10,
     backImage: image9,
     icons: [icon6, icon1, icon2], 
   },
   {
     id: 6,
-    title: "Design Systems",
+    title: "Go to Market Strategy",
     description:
-      "Build scalable design systems for consistent experiences.",
+      "Data-driven market strategies to accelerate growth and enhance your business.",
     frontImage: image12,
     backImage: image11,
     icons: [icon7, icon8, icon9], 

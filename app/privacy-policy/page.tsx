@@ -131,7 +131,7 @@ export default function PrivacyPolicy() {
 
             {/* Subtitle */}
             <p className="text-[12px] lg:text-[20px] text-[#615F5F] px-8 lg:px-0 text-center mb-6 lg:lg:mb-12 mb-6 leading-relaxed">
-At Nava Work , we value your privacy and are committed to protecting your personal information. This privacy policy explains what data we collect, why we collect it, and how we use it.            </p>
+At Navawork , we value your privacy and are committed to protecting your personal information. This privacy policy explains what data we collect, why we collect it, and how we use it.            </p>
 
             {/* Last Updated Card */}
 <div className="flex items-center gap-4 lg:lg:mb-12 mb-6 mb-4 bg-white/70 rounded-[8px] ">
@@ -355,7 +355,7 @@ At Nava Work , we value your privacy and are committed to protecting your person
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"> <mask id="mask0_1_8006" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40"> <rect width="40" height="40" fill="#D9D9D9"/> </mask> <g mask="url(#mask0_1_8006)"> <path d="M7.6925 31.6668C6.92528 31.6668 6.28472 31.4099 5.77083 30.896C5.25694 30.3821 5 29.7416 5 28.9743V11.026C5 10.2588 5.25694 9.61822 5.77083 9.10433C6.28472 8.59044 6.92528 8.3335 7.6925 8.3335H32.3075C33.0747 8.3335 33.7153 8.59044 34.2292 9.10433C34.7431 9.61822 35 10.2588 35 11.026V28.9743C35 29.7416 34.7431 30.3821 34.2292 30.896C33.7153 31.4099 33.0747 31.6668 32.3075 31.6668H7.6925ZM20 20.1927L6.66667 11.4743V28.9743C6.66667 29.2735 6.76278 29.5193 6.955 29.7118C7.1475 29.9041 7.39333 30.0002 7.6925 30.0002H32.3075C32.6067 30.0002 32.8525 29.9041 33.045 29.7118C33.2372 29.5193 33.3333 29.2735 33.3333 28.9743V11.4743L20 20.1927ZM20 18.3335L32.8204 10.0002H7.17958L20 18.3335ZM6.66667 11.4743V10.0002V28.9743C6.66667 29.2735 6.76278 29.5193 6.955 29.7118C7.1475 29.9041 7.39333 30.0002 7.6925 30.0002H6.66667V11.4743Z" fill="white"/> </g> </svg> </div>
                   <div>
                     <p className="font-medium robotoText text-[14px] lg:text-[20px] text-[#1B1B1B] text-sm lg:text-[20px] mb-3">Email</p>
-                    <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px]">info@frouv.com</p>
+                    <p className="text-[#615F5F] robotoText text-[12px] lg:text-[20px]">support@navawork.com</p>
                   </div>
                 </div>
 

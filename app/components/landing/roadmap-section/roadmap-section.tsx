@@ -225,12 +225,12 @@ export default function RoadmapSection() {
   ];
 
   return (
-    <div className="w-full sm:w-[412px] lg:w-[1440px] mx-auto">
+    <div className="w-full bg-[#FCFCFC] sm:w-[412px] lg:w-[1440px] mx-auto">
       <div className="max-w-7xl py-4 lg:py-10 mx-auto">
         {/* Header Section */}
         <div className="text-center lg:mb-16 mb-4 ">
-          <div className="flex justify-center mb-4">
-            <div className="inline-flex items-center justify-center px-6 py-1 lg:py-2 rounded-full bg-[#F5EAFD] border border-[#A23BEA]">
+          <div className="flex justify-center py-3 mb-4">
+            <div className="inline-flex items-center justify-center px-10 py-1 lg:py-3.5 rounded-full bg-[#F5EAFD] border border-[#A23BEA]">
               <span className="lg:text-[15px] text-[12px] robotoText text-[#9F1FFA]">
                 Our Process
               </span>
@@ -255,7 +255,7 @@ export default function RoadmapSection() {
             <div
               key={section.id}
               // className="flex flex-col items-start gap-1 lg:gap-8"
-              className="sticky top-3 pt-3 lg:pt-10 bg-white flex flex-col justify-center gap-3 lg:gap-8"
+              className="sticky top-40 pt-3 lg:pt-10 bg-white flex flex-col justify-center gap-3 lg:gap-8"
             >
               {/* Week and Title Section */}
               <div className="w-full">

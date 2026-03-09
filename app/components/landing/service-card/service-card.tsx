@@ -32,7 +32,7 @@ export function ServiceCard({ item }: ServiceCardProps) {
       <div className="flex flex-col gap-2 pt-2">
         {item.points.map((point, index) => (
           <div key={index} className="flex items-center gap-[11px]">
-            <div className="w-2 h-2 rounded-full bg-[#A23BEA] flex-shrink-0 mt-1" />
+            <div className="w-2 h-2 rounded-full bg-[#A23BEA] flex-shrink-0 mt-0 lg:mt-1" />
             <span className="text-[18px] text-[#615F5F]">{point}</span>
           </div>
         ))}

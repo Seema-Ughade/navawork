@@ -22,7 +22,7 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "4",
-    question: "What services does Nava work offer?",
+    question: "What services does Navawork offer?",
     answer: "We help teams with branding, product and UI/UX design, marketing creatives, and go-to-market execution. From shaping your brand to supporting launches and growth, we focus on clarity, speed, and results."
   },
   {
@@ -60,9 +60,4 @@ export const faqItems: FAQItem[] = [
     question: "Do you offer support after the project is delivered?",
     answer: "Yes—we offer post-delivery support to ensure smooth handover and implementation. You can also continue with flexible support or a retainer if you need ongoing updates, improvements, or launch assistance."
   },
-  {
-    id: "12",
-    question: "Do you offer support after the project is delivered?",
-    answer: "We love what we do and it shows in our work. We stay ahead of trends to keep your brand fresh. Continuous learning and innovation are core to our process."
-  }
 ];

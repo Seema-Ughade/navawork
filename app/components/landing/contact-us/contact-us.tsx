@@ -50,7 +50,7 @@ export default function ContactUsPage() {
       />
 
       {/* Main Content Container */}
-      <div className="relative z-10 max-w-[1188px] mx-auto px-4 sm:px-6 lg:px-8 py-2 lg:py-16">
+      <div className="relative z-10 max-w-[1188px] mx-auto px-4 sm:px-6 lg:px-8 py-2 lg:mb-8 mb-0 lg:py-16">
         <div className="flex flex-col-reverse lg:grid grid-cols-1 lg:  lg:grid-cols-[468px_620px] gap-0 lg:gap-10 items-start">
           {/* Left Section - Information */}
           <div className="flex flex-col w-full lg:max-w-[468px] max-h-[422px] h-[422px] robotoText justify-center">

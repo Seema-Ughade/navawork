@@ -15,18 +15,26 @@ export default function Page() {
       <Hero />
       <Service />
       <IndustryScroll />
-      <ServicesShowcase />
+      <section id="services" className="scroll-mt-[150px]">
+        <ServicesShowcase />
+      </section>
       <GTMStrategyContainer />
-      <RoadmapSection />
+      <section id="our-process" className="scroll-mt-[150px]">
+        <RoadmapSection />
+      </section>
       {/* Mobile About Us */}
       <div className="block lg:hidden">
         <AboutUs />
       </div>
-      <OurWorkCard />
-      {/* Desktop About Us */}
-      <div className="hidden lg:block">
-        <AboutUs />
-      </div>
+      <section id="our-works" className="scroll-mt-[150px]">
+        <OurWorkCard />
+      </section>
+      <section id="about-us" className="scroll-mt-[150px]">
+        {/* Desktop About Us */}
+        <div className="hidden lg:block">
+          <AboutUs />
+        </div>
+      </section>
       <FAQSection />
       <HeroCTA />
     </>

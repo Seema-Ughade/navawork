@@ -8,10 +8,10 @@ export default function ServicesShowcase() {
     <section className="py-2 pb-15 w-full sm:w-[412px] lg:w-[1440px] mx-auto px-4 bg-[#F8F8F8]">
       <div className="max-w-[1124px] mx-auto">
         {/* Header */}
-        <div className="text-center mb-6 lg:mb-16">
-          <div className="inline-flex items-center mb-4 lg:mb-6">
+        <div className="text-center mt-5 mb-6 lg:mb-16">
+          <div className="inline-flex items-center mt-5 mb-4 lg:mb-6">
             <div className=" lg:w-[152px] w-[107px] lg:h-[50px] h-[35px]  rounded-full flex items-center justify-center border-[0.6px] border-[#A23BEA] bg-[#F5EAFD]">
-              <span className="lg:text-[15px] text-[12px]  robotoText text-[#9F1FFA]">
+              <span className="lg:text-[15px] text-[12px]   robotoText text-[#9F1FFA]">
                 Our Services
               </span>
             </div>
@@ -29,7 +29,7 @@ export default function ServicesShowcase() {
             {brandingCards.map((card) => (
               <div
                 key={card.id}
-                className="relative bg-[#F8F8F8] w-[321px] h-[404px] overflow-hidden"
+                className="relative bg-[#F8F8F8] lg:w-[321px] w-full h-[404px] overflow-hidden"
               >
                 {/* Images Section */}
                 <div className="relative h-[260px] w-full">
@@ -144,12 +144,12 @@ export default function ServicesShowcase() {
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-[#1B1B1B] font-medium lg:text-[20px] text-[24px] leading-[150%] mb-2">
+                  <h3 className="text-[#1B1B1B] robotoText font-medium lg:text-[20px] text-[22px] leading-[150%] mb-2">
                     {card.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-[#615F5F] text-[20px] leading-[150%]">
+                  <p className="text-[#615F5F] robotoText text-[20px] leading-[150%]">
                     {card.description}
                   </p>
                 </div>

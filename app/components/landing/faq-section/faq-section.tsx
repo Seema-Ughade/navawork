@@ -21,9 +21,9 @@ const toggleFAQ = (id: string) => {
   
 
   return (
-    <section className="w-full sm:w-[412px] lg:w-[1440px] mx-auto dark:bg-[#0a0a0a] lg:py-16 py-8 px-4 lg:px-6">
+    <section className="w-full sm:w-[412px] lg:w-[1440px] bg-[#FCFCFC] mx-auto dark:bg-[#0a0a0a] lg:py-16 py-8 px-4 lg:px-6">
       {/* Header */}
-      <div className="max-w-[1080px] mx-auto mb-12">
+      <div className="max-w-[1080px] mx-auto mb-4 lg:mb-12">
         <div className="flex justify-center mb-6">
           <div className="flex justify-center">
             <div className="lg:w-[124px] lg:h-[50px] h-[24px] lg:px-0 px-4 flex items-center justify-center bg-[#F5EAFD] border border-[#A23BEA] rounded-[32px]">

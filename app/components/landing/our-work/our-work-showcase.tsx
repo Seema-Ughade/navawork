@@ -104,13 +104,13 @@ export default function PortfolioShowcase() {
 
 
   return (
-    <section className="w-full sm:w-[412px] lg:w-[1440px] mx-auto dark:bg-[#0a0a0a] pt-16 px-4">
+    <section className="w-full sm:w-[412px] lg:w-[1440px] mx-auto dark:bg-[#0a0a0a] pb-9 pt-16 px-4">
       <div className="max-w-[1096px] mx-auto">
         {/* Header */}
         <div className="text-center mb-8 lg:mb-16">
           <div className="flex justify-center mb-5">
             <div className="inline-flex  lg:w-[172px] w-[80px] lg:h-[50px] h-[30px] items-center justify-center lg:px-6 px-2 lg:py-2 py-0 rounded-full bg-[#F5EAFD] border border-[#A23BEA]">
-              <span className="text-[12px] lg:text-[15px] robotoText text-[#9F1FFA]">Our Work</span>
+              <span className="text-[12px] lg:text-[15px] robotoText text-[#9F1FFA]">Our Works</span>
             </div>
           </div>
 

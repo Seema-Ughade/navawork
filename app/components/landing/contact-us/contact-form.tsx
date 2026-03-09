@@ -242,17 +242,18 @@ return (
 
       {/* Terms and Conditions */}
       <div className="lg:text-[20px] robotoText text-[12px] text-[#615F5F]">
-        By Clicking submit you agree with our terms and Conditions, Privacy
-        Policy
+        By clicking on submit, you agree with our Terms and Conditions & Privacy
+        Policy.
       </div>
 
       {/* Submit Button */}
       <div className="flex w-full justify-center lg:justify-center">
         <HoverButton
           type="submit"
-          className="robotoText lg:max-w-[240px] w-[150px] text-[12px] lg:text-[12px] lg:py-4 py-2 px-6 rounded-full bg-black text-white font-semibold "
+          className="robotoText lg:h-[56px] lg:w-[240px] w-[150px] text-[12px] lg:text-[18px] lg:py-0 py-2 px-6 rounded-full bg-black text-white font-semibold "
         >
-Submit        </HoverButton>
+            Submit      
+        </HoverButton>
       </div>
     </form>
 

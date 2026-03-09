@@ -15,7 +15,7 @@ export default function HeroCTA() {
           build something great
         </p>
 
-        <div className="flex lg:flex-row flex-col gap-8 lg:max-w-[418px] w-full robotoText justify-center">
+        <div className="flex lg:flex-row flex-col gap-4 lg:max-w-[418px] w-full robotoText justify-center">
 
           <Link href="/contact-us" className="w-full">
             <HoverButton className="w-full h-[32px] lg:h-[56px] lg:text-[19.9px] text-[12px] bg-white text-[#1B1B1B] rounded-[48px] font-medium text-center flex items-center justify-center">

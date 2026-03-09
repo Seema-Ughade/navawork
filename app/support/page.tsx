@@ -55,7 +55,7 @@ export default function Support() {
     <main className="w-[412px] mx-auto lg:w-[1440px] bg-white overflow-hidden">
 
       {/* Hero Section */}
-      <section className="relative mx-auto  px-4 lg:px-8 py-8 lg:py-16 overflow-hidden">
+      <section className="relative mx-auto  px-4 lg:px-8 py-4 mt-4 lg:py-14 overflow-hidden">
         <HeroBackground />
 
         <div className="relative z-10">
@@ -84,7 +84,7 @@ export default function Support() {
             <h2 className="text-[14px] robotoText lg:text-[20px] font-medium text-[#1B1B1B] mb-4 lg:mb-6">
               How Can We Help You Today?
             </h2>
-            <p className="text-[12px] mx-auto lg:w-[1127px] robotoText lg:text-[20px] text-[#615F5F] mb-8 leading-relaxed">
+            <p className="text-[12px] mx-auto lg:w-[1127px] robotoText lg:text-[20px] text-[#615F5F] mb-10 leading-relaxed">
             Whether you need clarity on a project, want guidance on deliverables, or have questions about working together, we’re here to make things simple.            </p>
 
             {/* Support Cards Grid */}
@@ -119,10 +119,10 @@ export default function Support() {
               <hr className="border-t-[0.6px] max-w-[1127px] mx-auto border-[#D3D3D3] mb-0" />
 
           {/* Reach Out Section */}
-          <div className="mx-auto lg:w-[1127px] lg:px-0 px-4 rounded-lg py-8 lg:py-10 mb-0 lg:mb-2">
+          <div className="mx-auto lg:w-[1127px] lg:px-0 px-4 rounded-lg py-8 lg:py-2 lg:mt-8 mt-0 mb-0 lg:mb-2">
             <h2 className="text-[14px] lg:text-[20px] robotoText font-medium text-[#1B1B1B] mb-2">
               Reach Out Anytime            </h2>
-            <p className="text-[12px] lg:text-[20px] robotoText text-[#615F5F] mb-6 lg:mb-8">
+            <p className="text-[12px] lg:text-[20px] robotoText text-[#615F5F] mb-6 lg:mb-10">
 We believe great partnerships are built on communication. Just tell us what you need support with, and we’ll jump in.            </p>
 
             {/* Contact Cards */}
@@ -131,7 +131,7 @@ We believe great partnerships are built on communication. Just tell us what you 
                 icon={
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"> <mask id="mask0_1_7664" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40"> <rect width="40" height="40" fill="#D9D9D9"/> </mask> <g mask="url(#mask0_1_7664)"> <path d="M7.6925 31.6667C6.92528 31.6667 6.28472 31.4098 5.77083 30.8959C5.25694 30.382 5 29.7414 5 28.9742V11.0259C5 10.2587 5.25694 9.6181 5.77083 9.10421C6.28472 8.59032 6.92528 8.33337 7.6925 8.33337H32.3075C33.0747 8.33337 33.7153 8.59032 34.2292 9.10421C34.7431 9.6181 35 10.2587 35 11.0259V28.9742C35 29.7414 34.7431 30.382 34.2292 30.8959C33.7153 31.4098 33.0747 31.6667 32.3075 31.6667H7.6925ZM20 20.1925L6.66667 11.4742V28.9742C6.66667 29.2734 6.76278 29.5192 6.955 29.7117C7.1475 29.9039 7.39333 30 7.6925 30H32.3075C32.6067 30 32.8525 29.9039 33.045 29.7117C33.2372 29.5192 33.3333 29.2734 33.3333 28.9742V11.4742L20 20.1925ZM20 18.3334L32.8204 10H7.17958L20 18.3334ZM6.66667 11.4742V10V28.9742C6.66667 29.2734 6.76278 29.5192 6.955 29.7117C7.1475 29.9039 7.39333 30 7.6925 30H6.66667V11.4742Z" fill="white"/> </g> </svg> }
                 title="Support Email"
-                description="support@nava.design"
+                description="support@navawork.com"
               />
               <ContactCard
                 icon={
