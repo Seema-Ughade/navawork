@@ -22,10 +22,12 @@ export default function Page() {
       <section id="our-process" className="scroll-mt-[150px]">
         <RoadmapSection />
       </section>
+      <section id="about-us" className="scroll-mt-[150px]">
       {/* Mobile About Us */}
       <div className="block lg:hidden">
         <AboutUs />
       </div>
+      </section>
       <section id="our-works" className="scroll-mt-[150px]">
         <OurWorkCard />
       </section>
