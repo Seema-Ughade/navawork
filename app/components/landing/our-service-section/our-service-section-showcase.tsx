@@ -5,7 +5,7 @@ import { brandingCards } from "./our-service-section-card";
 
 export default function ServicesShowcase() {
   return (
-    <section className="py-2 pb-15 w-full sm:w-[412px] lg:w-[1440px] mx-auto px-4 bg-[#F8F8F8]">
+    <section className="py-2 pb-15 w-full xl:w-full sm:w-[412px] lg:w-[1440px] mx-auto px-4 bg-[#F8F8F8]">
       <div className="max-w-[1124px] mx-auto">
         {/* Header */}
         <div className="text-center mt-5 mb-6 lg:mb-16">
@@ -24,7 +24,7 @@ export default function ServicesShowcase() {
         </div>
 
         {/* Services Grid */}
-        <div className="min-h-screen bg-[#F8F8F8] p-0 lg:p-2">
+        <div className="bg-[#F8F8F8] p-0 lg:p-2">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 justify-items-center">
             {brandingCards.map((card) => (
               <div
@@ -144,12 +144,12 @@ export default function ServicesShowcase() {
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-[#1B1B1B] robotoText font-medium lg:text-[20px] text-[22px] leading-[150%] mb-2">
+                  <h3 className="text-[#1B1B1B] robotoText font-medium lg:text-[20px] text-[20px] leading-[150%] mb-2">
                     {card.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-[#615F5F] robotoText text-[20px] leading-[150%]">
+                  <p className="text-[#615F5F] robotoText text-[18px]  leading-[150%]">
                     {card.description}
                   </p>
                 </div>

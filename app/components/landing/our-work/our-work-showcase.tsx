@@ -104,7 +104,7 @@ export default function PortfolioShowcase() {
 
 
   return (
-    <section className="w-full sm:w-[412px] lg:w-[1440px] mx-auto dark:bg-[#0a0a0a] pb-9 pt-16 px-4">
+    <section className="w-full xl:w-full sm:w-[412px] lg:w-[1440px] mx-auto dark:bg-[#0a0a0a] pb-9 pt-16 px-4">
       <div className="max-w-[1096px] mx-auto">
         {/* Header */}
         <div className="text-center mb-8 lg:mb-16">

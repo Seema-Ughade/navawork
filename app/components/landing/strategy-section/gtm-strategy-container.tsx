@@ -6,7 +6,7 @@ import { StrategySection } from "./strategy-section";
 export function GTMStrategyContainer() {
   return (
     <>
-      <div className="w-full sm:w-[412px] lg:w-[1440px] lg:px-0 px-3 mx-auto  ">
+      <div className="w-full sm:w-[412px] xl:w-full lg:w-[1440px] lg:px-0 px-3 mx-auto  ">
         <section className="relative w-full  flex flex-col items-center justify-center px-4 sm:px-8 overflow-hidden snap-start bg-white">
           <div
             className=" absolute pointer-events-none w-[72.67px] h-[72.67px] top-[-18px] left-[351px] blur-[14.3px]  lg:w-[230px] lg:h-[220px] lg:top-[-90px] lg:left-auto lg:right-[-50px] lg:blur-[20px] "

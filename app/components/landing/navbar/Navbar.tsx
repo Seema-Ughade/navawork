@@ -148,20 +148,20 @@ const Navbar = ({ announcementVisible }: Props) => {
     <>
       <nav
         className={`w-full sticky ${
-          announcementVisible ? "lg:top-[80px] top-[58px]" : "top-0"
+          announcementVisible ? "lg:top-[60px] top-[36px]" : "top-0"
         } z-50 bg-white`}
       >
-        <div className="flex items-center justify-between mx-auto max-w-[1440px] lg:h-[96px] h-[64px] px-4 md:px-14">
+        <div className="flex items-center justify-between w-full xl:w-full mx-auto lg:w-[1440px] lg:h-[90px] h-[54px] px-4 lg:px-14">
           <Logo />
 
           {/* Desktop */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-4">
             <Navlinks />
             <CallButton />
           </div>
 
           {/* Mobile */}
-          <div className="flex md:hidden items-center gap-4">
+          <div className="flex lg:hidden items-center gap-4">
             <CallButton />
 
             <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
@@ -204,7 +204,7 @@ const Navbar = ({ announcementVisible }: Props) => {
 
         {/* Mobile menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden absolute z-50 bg-white w-[200px] top-[80px] right-4 rounded-[12px] border border-[#D3D3D3]">
+          <div className="lg:hidden absolute z-50 bg-white w-[200px] top-[80px] right-4 rounded-[12px] border border-[#D3D3D3]">
             <div className="p-4 robotoText">
             {links.map((link) => {
               const href = pathname === "/" ? `#${link.id}` : `/${`#${link.id}`}`;

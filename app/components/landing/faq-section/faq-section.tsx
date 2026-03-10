@@ -78,7 +78,7 @@ const toggleFAQ = (id: string) => {
               </p>
 
               {/* Buttons */}
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-3 lg:gap-6">
                                  <a
   href="https://cal.com/navawork/30min"
   target="_blank"

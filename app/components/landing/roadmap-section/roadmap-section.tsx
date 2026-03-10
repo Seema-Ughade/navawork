@@ -225,7 +225,7 @@ export default function RoadmapSection() {
   ];
 
   return (
-    <div className="w-full bg-[#FCFCFC] sm:w-[412px] lg:w-[1440px] mx-auto">
+    <div className="w-full bg-[#FCFCFC] xl:w-full sm:w-[412px] lg:w-[1440px] mx-auto">
       <div className="max-w-7xl py-4 lg:py-10 mx-auto">
         {/* Header Section */}
         <div className="text-center lg:mb-16 mb-4 ">

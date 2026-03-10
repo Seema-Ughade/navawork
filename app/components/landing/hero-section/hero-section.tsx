@@ -4,9 +4,10 @@ import HeroBackground from "./HeroBackground";
 
 export function Hero() {
   return (
-    <section className="relative mx-auto w-full sm:w-[412px] lg:w-[1440px] lg:min-h-[580px] flex flex-col items-center justify-center overflow-hidden dark:bg-[#0a0a0a]  lg:pt-0 pt-7 pb-2">
+    
+    <section className="relative mx-auto w-full sm:w-[412px] xl:w-full lg:w-[1440px] lg:min-h-[580px] flex flex-col items-center justify-center overflow-hidden dark:bg-[#0a0a0a]  lg:pt-0 pt-7 pb-2">
       <HeroBackground />
-      <div className="relative z-10 w-full sm:w-[412px] lg:w-[1440px] mx-auto px-4 sm:px-6 lg:px-0 text-center">
+      <div className="relative z-10 w-full sm:w-[412px]  lg:w-[1440px] mx-auto px-4 sm:px-6 lg:px-0 text-center">
         {/* Badge */}
         <div className="inline-flex mt-3 lg:max-w-[280px] lg:h-[50px] sm:h-[28px] h-[28px] items-center justify-center mb-4 px-[20px]  lg:py-[12px] py-[5px] rounded-[32px] bg-[#F5EAFD] border-[0.6px] border-[#A23BEA]">
           <div className="w-2 h-2 bg-[#FFD700] rotate-45 mr-2 flex-shrink-0" />
