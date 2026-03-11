@@ -47,40 +47,7 @@ const Navbar = ({ announcementVisible }: Props) => {
             <CallButton />
 
             <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                
-                <line
-                  x1="1.42859"
-                  y1="1.60714"
-                  x2="18.5714"
-                  y2="1.60714"
-                  stroke="#1B1B1B"
-                  strokeWidth="1.07143"
-                />
-                <line
-                  x1="1.42859"
-                  y1="18.0357"
-                  x2="18.5714"
-                  y2="18.0357"
-                  stroke="#1B1B1B"
-                  strokeWidth="1.07143"
-                />
-                <line
-                  x1="9.66608"
-                  y1="9.46429"
-                  x2="18.5715"
-                  y2="9.46429"
-                  stroke="#1B1B1B"
-                  strokeWidth="1.07143"
-                />
-              </svg>
-            </button>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" > <line x1="1.42859" y1="1.60714" x2="18.5714" y2="1.60714" stroke="#1B1B1B" strokeWidth="1.07143" /> <line x1="1.42859" y1="18.0357" x2="18.5714" y2="18.0357" stroke="#1B1B1B" strokeWidth="1.07143" /> <line x1="9.66608" y1="9.46429" x2="18.5715" y2="9.46429" stroke="#1B1B1B" strokeWidth="1.07143" /> </svg> </button>
           </div>
         </div>
 

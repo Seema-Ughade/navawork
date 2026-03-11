@@ -25,7 +25,7 @@ export function Hero() {
           From Design and Brand Identity to Go-to-Market Strategy, we create and execute comprehensive solutions that don't just look great—they drive real business growth and market dominance. </p>
 
         {/* CTA Buttons */}
-        <div className="hidden w-[496px] sm:flex flex-col sm:flex-row text-center mx-auto items-center justify-center gap-4 md:mb-4 mb-14">
+        <div className="hidden w-[496px] sm:flex flex-col sm:flex-row text-center mx-auto items-center justify-center gap-4 md:mb-4 lg:mb-14">
           <HoverButton href="/contact-us" className="w-[240px] lg:h-[56px] md:h-[40px] robotoText bg-[#1B1B1B] text-white rounded-[40px] lg:text-[18px] text-[14px] font-medium flex items-center justify-center gap-2">
             Launch your Brand
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"   className="flex-shrink-0"> <mask id="mask0_154_1179" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24" > <rect width="24" height="24" fill="#D9D9D9" /> </mask> <g mask="url(#mask0_154_1179)"> <path d="M17.0788 12.5H5V11.5H17.0788L11.2865 5.70775L12 5L19 12L12 19L11.2865 18.2923L17.0788 12.5Z" fill="white" /> </g> </svg>
@@ -35,7 +35,7 @@ export function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-          <HoverButton className="bg-white robotoText w-[240px] h-[56px] md:h-[40px] border border-[#D3D3D3] text-[#1B1B1B] rounded-[40px] lg:text-[18px] text-[14px] font-medium flex items-center justify-center">
+          <HoverButton className="bg-white robotoText w-[240px] lg:h-[56px] md:h-[40px] border border-[#D3D3D3] text-[#1B1B1B] rounded-[40px] lg:text-[18px] text-[14px] font-medium flex items-center justify-center">
             Book GTM Strategy Call
           </HoverButton>
           </a>

@@ -17,7 +17,7 @@ export function GTMStrategyContainer() {
             }}
           />
 
-          <div className="relative z-10 max-w-7xl  mx-auto py-4 lg:py-10 text-center">
+          <div className="relative z-10 max-w-7xl  mx-auto py-4 md:py-8 lg:py-10 text-center">
             {/* Badge - Marketing & GTM Strategy label */}
             <div className="inline-flex items-center justify-center mb-3 lg:mb-6 px-3 lg:px-6 py-1 lg:py-3 rounded-full bg-[#F5EAFD] border border-[#A23BEA]">
               <span className="lg:text-[15px] text-[12px] robotoText text-[#9F1FFA]">

@@ -5,24 +5,7 @@ export default function CareerPage() {
     <div className="lg:w-[1440px] md:w-full sm:w-[412px] mx-auto bg-white relative overflow-hidden">
       {/* Pink Gradient Background Blob */}
 <div
-  className="
-    absolute rounded-full pointer-events-none
-    bg-[linear-gradient(180deg,#FDBFE2_0%,#FDBFE2_100%)]
-    opacity-70
-    blur-[10px] lg:blur-[30px] blur-[10px]
-
-    /* Mobile */
-    w-[101.57px] h-[101.57px]
-    top-[22.29px] left-[155px]
-
-    /* Desktop */
-    lg:w-[355px] lg:h-[355px]
-    lg:top-[63px] lg:left-[556px]
-  "
-/>
-
-
-
+  className=" absolute rounded-full pointer-events-none bg-[linear-gradient(180deg,#FDBFE2_0%,#FDBFE2_100%)] opacity-70 blur-[10px] lg:blur-[30px] blur-[10px]  /* Mobile */ w-[101.57px] h-[101.57px] top-[22.29px] left-[155px]  /* Desktop */ lg:w-[355px] lg:h-[355px] lg:top-[63px] lg:left-[556px] " /> 
       <div className="max-w-7xl mx-auto px-6 lg:py-11 py-8 relative z-10">
 {/* Careers Badge */}
 <div className="flex justify-center">

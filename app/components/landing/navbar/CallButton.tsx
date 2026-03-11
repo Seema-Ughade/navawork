@@ -7,17 +7,7 @@ export default function CallButton() {
         href="https://cal.com/navawork/30min"
         target="_blank"
         rel="noopener noreferrer"
-        className="
-          w-[106px] h-[32px]
-          lg:w-[164px] lg:h-[48px]
-          px-[12px] py-[12px]
-          bg-[#1B1B1B] hover:bg-[#9542cf]
-          rounded-[40px]
-          flex items-center justify-center
-          transition-colors duration-500 ease-in-out
-        "
-      >
-        
+        className=" w-[106px] h-[32px] lg:w-[164px] lg:h-[48px] px-[12px] py-[12px] bg-[#1B1B1B] hover:bg-[#9542cf] rounded-[40px] flex items-center justify-center transition-colors duration-500 ease-in-out " > 
         <span
           className="
            robotoText w-[181px] h-[20px]

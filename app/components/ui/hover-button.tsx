@@ -19,13 +19,7 @@ export function HoverButton({
   disabled = false,
 }: HoverButtonProps) {
 
-  const baseStyles = `
-    relative overflow-hidden
-    transition-colors duration-300
-    group rounded-full
-    ${className}
-  `;
-
+  const baseStyles = ` relative overflow-hidden transition-colors duration-300 group rounded-full ${className} `; 
   const content = (
     <>
       {/* Hover background */}

@@ -4,7 +4,7 @@ import HeroBackground from '../components/landing/hero-section/HeroBackground';
 
 export default function TermsAndConditions() {
   return (
-    <div className="lg:w-[1440px] md:w-full sm:w-[412px] mx-auto ">
+    <div className="lg:w-[1440px] w-full xl:w-full md:w-full sm:w-[412px] mx-auto ">
 
       {/* Hero Section with Gradients */}
       <div className="relative overflow-hidden">
@@ -23,7 +23,7 @@ export default function TermsAndConditions() {
             </div>
 
           {/* Main Title */}
-          <h1 className="text-[32px] md:text-[64px] leading-tight robotoText font-bold text-[#1B1B1B] mb-6">
+          <h1 className="text-[32px] lg:text-[64px] md:text-[32px] leading-tight robotoText font-bold text-[#1B1B1B] mb-6">
               Guidelines for  <br className="md:hidden" />
  Working With <br className="hidden md:block" />
   us
