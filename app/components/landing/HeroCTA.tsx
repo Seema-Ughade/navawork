@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroCTA() {
   return (
-    <section className="bg-[#1B1B1B] robotoText xl:w-full w-full sm:w-[412px] lg:w-[1440px] mx-auto text-white lg:py-16 lg:px-16 py-6 px-5">
+    <section className="bg-[#1B1B1B] robotoText xl:w-full w-full md:w-[768px] sm:w-[412px] lg:w-[1440px] mx-auto text-white lg:py-16 lg:px-16 py-6 px-5">
       <div className="flex flex-col items-center justify-center lg:gap-8 gap-4">
         <h1 className="font-semibold tracking-[0] robotoText text-[24px] lg:text-[64px] text-center max-w-[1127px] leading-[120%]">
           We craft brands and propel <br className="block lg:hidden" />
@@ -15,7 +15,7 @@ export default function HeroCTA() {
           build something great
         </p>
 
-        <div className="flex lg:flex-row flex-col gap-4 lg:max-w-[418px] w-full robotoText justify-center">
+        <div className="flex lg:flex-row md:flex-row flex-col gap-4  md:max-w-[418px] lg:max-w-[418px] w-full robotoText justify-center">
 
           <Link href="/contact-us" className="w-full">
             <HoverButton className="w-full h-[32px] lg:h-[56px] lg:text-[19.9px] text-[12px] bg-white text-[#1B1B1B] rounded-[48px] font-medium text-center flex items-center justify-center">

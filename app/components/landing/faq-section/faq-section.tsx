@@ -21,7 +21,7 @@ const toggleFAQ = (id: string) => {
   
 
   return (
-    <section className="w-full sm:w-[412px] lg:w-[1440px] bg-[#FCFCFC] mx-auto dark:bg-[#0a0a0a] lg:py-16 py-8 px-4 lg:px-6">
+    <section className="w-full md:w-[768px] sm:w-[412px] lg:w-[1440px] bg-[#FCFCFC] mx-auto dark:bg-[#0a0a0a] lg:py-16 py-8 px-4 lg:px-6">
       {/* Header */}
       <div className="max-w-[1080px] mx-auto mb-4 lg:mb-12">
         <div className="flex justify-center mb-6">
@@ -38,7 +38,7 @@ const toggleFAQ = (id: string) => {
         </h2>
 
         {/* Main FAQ Container */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Left Sidebar */}
           <div className="lg:col-span-1">
             <div className="lg:max-w-[320px] w-full border-[0.6px] border-[#D3D3D3] rounded-[8px] p-6 bg-white top-6">

@@ -7,25 +7,25 @@ import Logo from "../navbar/Logo";
 export default function Footer() {
   return (
     <footer className="w-full xl:w-full sm:w-[412px] lg:w-[1440px] mx-auto bg-white ">
-      <div className="w-full  max-w-[1440px]  mx-auto px-6 md:px-8 md:h-[223px] py-8 md:py-12">
+      <div className="w-full  max-w-[1440px]  mx-auto px-6 lg:px-8 lg:h-[223px] py-8 lg:py-12">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1  md:grid-cols-6 gap-2 md:gap-12 text-center md:text-left">
+        <div className="grid grid-cols-1  lg:grid-cols-6 gap-2 lg:gap-12 text-center lg:text-left">
           {/* Left Column - Logo & Copyright */}
-          <div className="flex flex-col items-center md:items-start md:col-span-2">
-            <div className="mb-5 md:mb-20">
+          <div className="flex flex-col items-center lg:items-start lg:col-span-2">
+            <div className="mb-5 lg:mb-20">
               <Logo />
             </div>
 
-            <p className="hidden lg:block text-[14px] md:text-[16px] robotoText text-[#1B1B1B] text-center md:text-left md:pl-6">
+            <p className="hidden lg:block text-[14px] lg:text-[16px] robotoText text-[#1B1B1B] text-center lg:text-left lg:pl-6">
               © 2026 Navawork. All rights reserved
             </p>
           </div>
 
           {/* Empty Spacer Column (Desktop only) */}
-          <div className="hidden md:flex md:col-span-2"></div>
+          <div className="hidden lg:flex lg:col-span-2"></div>
 
           {/* Middle Column */}
-          <div className="flex w-full md:w-[156px] robotoText lg:flex-col flex-row gap-0 md:gap-2 items-center justify-center md:items-start">
+          <div className="flex w-full lg:w-[156px] robotoText lg:flex-col flex-row gap-0 lg:gap-2 items-center justify-center lg:items-start">
             <Link href="/contact-us" >
               <HoverButton className="text-[#1B1B1B] lg:py-2.5 py-0.5 lg:lg:px-5 px-1 lg:text-[18px] text-[12px]">
                 Contact Us
@@ -62,7 +62,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/navawork/" 
                 target="_blank"
                 rel="noopener noreferrer"
-               className="hidden md:flex mb-3 flex-row items-center gap-1 justify-center md:justify-start">
+               className="hidden lg:flex mb-3 flex-row items-center gap-1 justify-center lg:justify-start">
               
                 <span className="text-[#1B1B1B] ml-5 text-[12px] mr-2 lg:text-[18px]">
                   Follow us on
@@ -73,11 +73,11 @@ export default function Footer() {
           </div>
 
           {/* Right Column */}
-<div className="flex lg:flex-col flex-row robotoText justify-center gap-0 md:gap-3 items-center md:items-start">
+<div className="flex lg:flex-col flex-row robotoText justify-center gap-0 lg:gap-3 items-center lg:items-start">
             <Link href="/support" >
             <HoverButton
               
-              className="text-[#1B1B1B] lg:py-2.5 py-0.5 lg:lg:px-5 px-1 hidden md:block lg:text-[18px] text-[12px]"
+              className="text-[#1B1B1B] lg:py-2.5 py-0.5 lg:lg:px-5 px-1 hidden lg:block lg:text-[18px] text-[12px]"
             >
               Support
             </HoverButton>
@@ -108,7 +108,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/navawork/" 
                 target="_blank"
                 rel="noopener noreferrer"
-               className="flex lg:hidden mt-2 items-center gap-2 justify-center md:justify-start">
+               className="flex lg:hidden mt-2 items-center gap-2 justify-center lg:justify-start">
          
           <span className="text-[#1B1B1B]  lg:text-[18px] text-[12px]">
             Follow us on

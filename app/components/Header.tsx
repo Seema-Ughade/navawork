@@ -1,22 +1,3 @@
-// "use client";
-
-// import { useState } from "react";
-// import AnnouncementBar from "./landing/AnnouncementBar";
-// import Navbar from "./landing/navbar/Navbar";
-
-// export default function Header() {
-//   const [announcementVisible, setAnnouncementVisible] = useState(true);
-
-//   return (
-//     <>
-//       {announcementVisible && (
-//         <AnnouncementBar onClose={() => setAnnouncementVisible(false)} />
-//       )}
-
-//       <Navbar announcementVisible={announcementVisible} />
-//     </>
-//   );
-// }
 
 "use client";
 

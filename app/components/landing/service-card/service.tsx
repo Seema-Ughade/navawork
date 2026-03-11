@@ -4,13 +4,13 @@ export default function Service() {
   return (
     <main className=" dark:bg-[#0a0a0a]">
       {/* Hero Section */}
-      <section className="w-full xl:w-full sm:w-[412px] lg:w-[1440px] mx-auto py-1 pb-4 lg:pt-10 pt-3 lg:pb-10 px-4 lg::py-10">
+      <section className="w-full xl:w-full md:w-191.75 sm:w-[412px] lg:w-[1440px] mx-auto py-1 sm:pb-4 md:pb-8 pb-4 lg:pt-10 pt-3 lg:pb-10 px-4 lg::py-10">
         <div className="max-w-[1440px] mx-auto">
           {/* Main Heading */}
           <div className="text-center mb-1 md:mb-12">
-            <h1 className="w-full sm:max-w-[412px] dark:text-white robotoText lg:max-w-[721px] mx-auto text-[#1B1B1B] text-center font-semibold lg:text-[48px] text-[32px] lg:px-0 sm:px-2 px-2 lg:mb-6 mb-4 lg:leading-tight">
-                Everything You Need <br className="block lg:hidden" />
-  to Dominate Your Market <br className="block lg:hidden" />
+            <h1 className="w-full md:w-3xl sm:max-w-[412px] dark:text-white robotoText lg:max-w-[721px] mx-auto text-[#1B1B1B] text-center font-semibold lg:text-[48px] text-[32px] lg:px-0 sm:px-2 px-2 lg:mb-6 mb-4 lg:leading-tight">
+                Everything You Need <br className="block md:hidden" />
+  to Dominate Your Market <br className="block md:hidden" />
 
             </h1>
 

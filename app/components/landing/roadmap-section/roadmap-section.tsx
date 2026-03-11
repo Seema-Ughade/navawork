@@ -225,7 +225,7 @@ export default function RoadmapSection() {
   ];
 
   return (
-    <div className="w-full bg-[#FCFCFC] xl:w-full sm:w-[412px] lg:w-[1440px] mx-auto">
+    <div className="w-full bg-[#FCFCFC] md:w-[768px] xl:w-full sm:w-[412px] lg:w-[1440px] mx-auto">
       <div className="max-w-7xl py-4 lg:py-10 mx-auto">
         {/* Header Section */}
         <div className="text-center lg:mb-16 mb-4 ">
@@ -238,8 +238,8 @@ export default function RoadmapSection() {
           </div>
 
           <h1 className="text-[#1B1B1B] font-semibold text-[32px] lg:text-[48px] mb-4 lg:mb-6 tracking-tight">
-            Your Roadmap to <br className="block lg:hidden" />
-             Market Success <br className="block lg:hidden" />
+            Your Roadmap to <br className="block md:hidden" />
+             Market Success <br className="block md:hidden" />
           </h1>
 
           <p className="text-[#615F5F] text-[12px] lg:text-[20px] lg:px-0 px-6 leading-relaxed max-w-[1047px] mx-auto">
@@ -250,12 +250,12 @@ export default function RoadmapSection() {
         </div>
 
         {/* Roadmap Sections */}
-        <div className="lg:space-y-12 space-y-3 bg-white lg:px-0 px-6 w-full max-w-[1128px] mx-auto">
+        <div className="lg:space-y-12 space-y-3 bg-[#FCFCFC]  lg:px-0 px-6 w-full max-w-[1128px] mx-auto">
           {sections.map((section, index) => (
             <div
               key={section.id}
               // className="flex flex-col items-start gap-1 lg:gap-8"
-              className="sticky top-40 pt-3 lg:pt-10 bg-white flex flex-col justify-center gap-3 lg:gap-8"
+              className="sticky top-10 lg:top-40 md:top-10 pt-3 lg:pt-10 bg-[#FCFCFC]  flex flex-col justify-center gap-3 lg:gap-8"
             >
               {/* Week and Title Section */}
               <div className="w-full">
@@ -286,7 +286,7 @@ export default function RoadmapSection() {
                   </div>
 
                   {/* Number Badge */}
-                  <div className="absolute -top-2 -right-5 w-8 h-8 rounded-full flex items-center robotoText justify-center text-[16px] text-[#7415B7] bg-white ">
+                  <div className="absolute -top-2 -right-5 w-8 h-8 rounded-full flex items-center robotoText justify-center text-[16px] text-[#7415B7] bg-[#FCFCFC]  ">
                     {section.id}
                   </div>
                 </div>

@@ -4,7 +4,7 @@ import HeroBackground from '../components/landing/hero-section/HeroBackground';
 
 export default function TermsAndConditions() {
   return (
-    <div className="lg:w-[1440px] sm:w-[412px] mx-auto ">
+    <div className="lg:w-[1440px] md:w-full sm:w-[412px] mx-auto ">
 
       {/* Hero Section with Gradients */}
       <div className="relative overflow-hidden">

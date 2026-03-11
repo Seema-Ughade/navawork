@@ -16,11 +16,11 @@ export default function Page() {
       <Service />
       <IndustryScroll />
       <section id="services" className="scroll-mt-[150px]">
-        <ServicesShowcase />
+      <ServicesShowcase />
       </section>
       <GTMStrategyContainer />
       <section id="our-process" className="scroll-mt-[150px]">
-        <RoadmapSection />
+      <RoadmapSection />
       </section>
       <section id="about-us" className="scroll-mt-[150px]">
       {/* Mobile About Us */}

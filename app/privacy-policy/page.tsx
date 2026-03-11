@@ -101,7 +101,7 @@ export default function PrivacyPolicy() {
   ];
 
   return (
-    <div className="min-h-screen lg:w-[1440px] w-[412px] mx-auto relative overflow-hidden">
+    <div className="min-h-screen lg:w-[1440px] md:w-full sm:w-[412px] mx-auto relative overflow-hidden">
       {/* Background Gradients */}
       <HeroBackground />
 

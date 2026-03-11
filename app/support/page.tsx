@@ -52,7 +52,7 @@ function ContactCard({ icon, title, description }: ContactCardProps) {
 
 export default function Support() {
   return (
-    <main className="w-[412px] mx-auto lg:w-[1440px] bg-white overflow-hidden">
+    <main className="md:w-full sm:w-[412px] mx-auto lg:w-[1440px] bg-white overflow-hidden">
 
       {/* Hero Section */}
       <section className="relative mx-auto  px-4 lg:px-8 py-4 mt-4 lg:py-14 overflow-hidden">

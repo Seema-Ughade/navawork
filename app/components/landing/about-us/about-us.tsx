@@ -4,7 +4,7 @@ import { ValuesSection } from "./value-section";
 
 export function AboutUs() {
   return (
-    <section className="mx-auto bg-[#FCFCFC] xl:w-full w-full sm:w-[412px] lg:w-[1440px] pt-10 md:pt-24 lg:pt-14">
+    <section className="mx-auto bg-[#FCFCFC] md:w-[768px] xl:w-full w-full sm:w-[412px] lg:w-[1440px] pt-10 md:pt-24 lg:pt-14">
       <div className="px-4 sm:px-6 lg:px-8">
         {/* Badge */}
         <div className="mb-4 flex justify-center md:mb-6">

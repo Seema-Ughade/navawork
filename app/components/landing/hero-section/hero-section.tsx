@@ -5,9 +5,9 @@ import HeroBackground from "./HeroBackground";
 export function Hero() {
   return (
     
-    <section className="relative mx-auto w-full sm:w-[412px] xl:w-full lg:w-[1440px] lg:min-h-[580px] flex flex-col items-center justify-center overflow-hidden dark:bg-[#0a0a0a]  lg:pt-0 pt-7 pb-2">
+    <section className="relative mx-auto w-full md:w-[768px]  sm:w-[412px] xl:w-full lg:w-[1440px] lg:min-h-[580px] flex flex-col items-center justify-center overflow-hidden dark:bg-[#0a0a0a]  lg:pt-0 pt-7 pb-2">
       <HeroBackground />
-      <div className="relative z-10 w-full sm:w-[412px]  lg:w-[1440px] mx-auto px-4 sm:px-6 lg:px-0 text-center">
+      <div className="relative z-10 w-full md:w-[768px] sm:w-[412px]  lg:w-[1440px] mx-auto px-4 sm:px-6 lg:px-0 text-center">
         {/* Badge */}
         <div className="inline-flex mt-3 lg:max-w-[280px] lg:h-[50px] sm:h-[28px] h-[28px] items-center justify-center mb-4 px-[20px]  lg:py-[12px] py-[5px] rounded-[32px] bg-[#F5EAFD] border-[0.6px] border-[#A23BEA]">
           <div className="w-2 h-2 bg-[#FFD700] rotate-45 mr-2 flex-shrink-0" />
@@ -18,25 +18,24 @@ export function Hero() {
 
         {/* Description */}
         <h1 className="text-[#1B1B1B] dark:text-white robotoText text-center w-full lg:w-[1127px] mx-auto robotoText font-semibold lg:text-[64px] text-[32px] mb-4 leading-tight">
-          We Build <br className="block lg:hidden" /> Brands & Launch Them <br className="block lg:hidden" /> to Market Success </h1>
+          We Build <br className="block md:hidden" /> Brands & Launch Them <br className="block md:hidden" /> to Market Success </h1>
 
         {/* Description */}
         <p className="w-full lg:max-w-[1080px] dark:text-white robotoText lg:px-0 px-4 mx-auto robotoText lg:text-[20px] text-[12px] text-[#615F5F] mb-6 mx-auto leading-relaxed">
           From Design and Brand Identity to Go-to-Market Strategy, we create and execute comprehensive solutions that don't just look great—they drive real business growth and market dominance. </p>
 
         {/* CTA Buttons */}
-        <div className="hidden w-[496px] sm:flex flex-col sm:flex-row text-center mx-auto items-center justify-center gap-4 mb-14">
-          <HoverButton href="/contact-us" className="w-[240px] h-[56px] robotoText bg-[#1B1B1B] text-white rounded-[40px] text-[18px] font-medium flex items-center justify-center gap-2">
+        <div className="hidden w-[496px] sm:flex flex-col sm:flex-row text-center mx-auto items-center justify-center gap-4 md:mb-4 mb-14">
+          <HoverButton href="/contact-us" className="w-[240px] lg:h-[56px] md:h-[40px] robotoText bg-[#1B1B1B] text-white rounded-[40px] lg:text-[18px] text-[14px] font-medium flex items-center justify-center gap-2">
             Launch your Brand
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"   className="flex-shrink-0"> <mask id="mask0_154_1179" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24" > <rect width="24" height="24" fill="#D9D9D9" /> </mask> <g mask="url(#mask0_154_1179)"> <path d="M17.0788 12.5H5V11.5H17.0788L11.2865 5.70775L12 5L19 12L12 19L11.2865 18.2923L17.0788 12.5Z" fill="white" /> </g> </svg>
              </HoverButton>
              <a
-  href="https://cal.com/navawork/15min"
-  target="_blank"
-  rel="noopener noreferrer"
->
-
-          <HoverButton className="bg-white robotoText w-[240px] h-[56px] border border-[#D3D3D3] text-[#1B1B1B] rounded-[40px] text-[18px] font-medium flex items-center justify-center">
+                href="https://cal.com/navawork/15min"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+          <HoverButton className="bg-white robotoText w-[240px] h-[56px] md:h-[40px] border border-[#D3D3D3] text-[#1B1B1B] rounded-[40px] lg:text-[18px] text-[14px] font-medium flex items-center justify-center">
             Book GTM Strategy Call
           </HoverButton>
           </a>
@@ -44,26 +43,19 @@ export function Hero() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="lg:hidden flex flex-col mt-8 sm:flex-row text-center mx-auto items-center justify-center gap-3 mb-4 lg:mb-14">
-          {/* <Link href="/contact-us">
-          <button  className="lg:max-w-[240px] w-full h-[36px] robotoText bg-[#1B1B1B] text-white rounded-[40px] lg:text-[18px] text-[12px] font-medium flex items-center justify-center gap-2">
-            Launch your Brand
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" > <mask id="mask0_154_1179" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24" > <rect width="24" height="24" fill="#D9D9D9" /> </mask> <g mask="url(#mask0_154_1179)"> <path d="M17.0788 12.5H5V11.5H17.0788L11.2865 5.70775L12 5L19 12L12 19L11.2865 18.2923L17.0788 12.5Z" fill="white" /> </g> </svg>
-          </button>
-          </Link> */}
+        <div className=" md:hidden flex flex-col mt-8 sm:flex-row text-center mx-auto items-center justify-center gap-3 mb-4 lg:mb-14">
           <Link href="/contact-us" className="w-full block">
           <button  className="lg:max-w-[240px] w-full h-[36px] robotoText bg-[#1B1B1B] text-white rounded-[40px] lg:text-[18px] text-[12px] font-medium flex items-center justify-center gap-2">
-    Launch your Brand
-  </button>
-</Link>
-             <a
-  href="https://cal.com/navawork/15min"
-  target="_blank"
-  rel="noopener noreferrer"
- className="bg-white robotoText lg:max-w-[240px] w-full h-[36px] border border-[#D3D3D3] text-[#1B1B1B] rounded-[40px] lg:text-[18px] text-[12px] font-medium flex items-center justify-center">
+            Launch your Brand
+          </button>
+          </Link>
+                      <a
+            href="https://cal.com/navawork/15min"
+            target="_blank"
+            rel="noopener noreferrer"
+          className="bg-white robotoText lg:max-w-[240px] w-full h-[36px] border border-[#D3D3D3] text-[#1B1B1B] rounded-[40px] lg:text-[18px] text-[12px] font-medium flex items-center justify-center">
             Book GTM Strategy Call
           </a>
-          
         </div>
 
         {/* Features Row */}

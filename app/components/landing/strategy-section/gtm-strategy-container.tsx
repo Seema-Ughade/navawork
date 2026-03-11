@@ -6,7 +6,7 @@ import { StrategySection } from "./strategy-section";
 export function GTMStrategyContainer() {
   return (
     <>
-      <div className="w-full sm:w-[412px] xl:w-full lg:w-[1440px] lg:px-0 px-3 mx-auto  ">
+      <div className="w-full md:w-[768px] sm:w-[412px] xl:w-full lg:w-[1440px] lg:px-0 px-3 mx-auto  ">
         <section className="relative w-full  flex flex-col items-center justify-center px-4 sm:px-8 overflow-hidden snap-start bg-white">
           <div
             className=" absolute pointer-events-none w-[72.67px] h-[72.67px] top-[-18px] left-[351px] blur-[14.3px]  lg:w-[230px] lg:h-[220px] lg:top-[-90px] lg:left-auto lg:right-[-50px] lg:blur-[20px] "
@@ -27,7 +27,7 @@ export function GTMStrategyContainer() {
 
             {/* Main heading */}
             <h1 className="text-[#1B1B1B] sm:text-center font-semibold robotoText text-[#1B1B1B] text-[32px] lg:text-[48px] mb-3 lg:mb-6 leading-tight">
-              From Strategy to   <br className="block lg:hidden" />
+              From Strategy to   <br className="block md:hidden" />
 Market Domination
             </h1>
 
@@ -43,8 +43,7 @@ Market Domination
         {strategyData.map((section, index) => (
           <section
             key={section.id}
-            // className="relative w-full flex flex-col items-center justify-center px-4 sm:px-8 bg-white snap-start"
-              className="sticky top-40 bg-white w-full flex items-center justify-center bg-white"
+              className="sticky top-10 lg:top-40 md:top-10 bg-white w-full flex items-center justify-center bg-white"
 
           >
             <StrategySection section={section} />

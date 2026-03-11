@@ -2,7 +2,7 @@ export default function HeroBackground() {
   return (
     <>
       {/* Pink gradient blob background */}
-      <div className=" absolute pointer-events-none w-[101.57px] h-[101.57px] top-[18px] left-[156px] blur-[12px] opacity-70  lg:block lg:w-[355px] lg:h-[355px] lg:top-[80px] lg:left-[546px] lg:blur-[30px] "
+      <div className=" absolute pointer-events-none w-[101.57px] h-[101.57px] top-[18px] left-[156px] blur-[12px] opacity-70  lg:block md:w-[200px] md:h-[200px] md:top-[50px] md:left-[300px] md:blur-[20px]  lg:w-[355px] lg:h-[355px] lg:top-[80px] lg:left-[546px] lg:blur-[30px] "
         style={{
           background: "linear-gradient(180deg, #FDBFE2 0%, #FDBFE2 100%)",
           borderRadius: "70%",
@@ -10,7 +10,7 @@ export default function HeroBackground() {
       />
 
       {/* Peach/orange gradient blob on left */}
-      <div className=" absolute pointer-events-none w-[80px] h-[80px] top-[101px] left-[-34px] blur-[12.75px] opacity-80  lg:block lg:w-[254px] lg:h-[254px] lg:top-[350px] lg:left-[-97px] lg:blur-[20px] " style={{
+      <div className=" absolute pointer-events-none w-[80px] h-[80px] top-[101px] left-[-34px] blur-[12.75px] opacity-80  lg:block lg:w-[254px] lg:h-[254px] lg:top-[350px] lg:left-[-97px] md:w-[160px] md:h-[160px] md:top-[200px] md:left-[-50px] md:blur-[16px] lg:blur-[20px] " style={{
           background: "linear-gradient(180deg, #FFCDBF 0%, #F38464 100%)",
           borderRadius: "50%",
         }}
@@ -18,7 +18,7 @@ export default function HeroBackground() {
 
       {/* Blue / Purple gradient blob – top right */}
       <div
-        className=" absolute pointer-events-none w-[80px] h-[80px] top-[-30px] left-[355px] blur-[12.75px] opacity-100  lg:block lg:w-[230px] lg:h-[220px] lg:top-[-90px] lg:left-auto lg:right-[-50px] lg:blur-[20px] "
+        className=" absolute pointer-events-none w-[80px] h-[80px] top-[-30px] left-[355px] blur-[12.75px] opacity-100  lg:block lg:w-[230px] lg:h-[220px] lg:top-[-90px] lg:left-auto lg:right-[-50px] md:w-[150px] md:h-[150px] md:top-[-50px] md:left-auto md:right-[-20px] md:blur-[16px] lg:blur-[20px] "
         style={{
           background: "linear-gradient(180deg, #DAE6FF 0%, #CE88FF 100%)",
           borderRadius: "50%",

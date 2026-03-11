@@ -5,7 +5,7 @@ import { brandingCards } from "./our-service-section-card";
 
 export default function ServicesShowcase() {
   return (
-    <section className="py-2 pb-15 w-full xl:w-full sm:w-[412px] lg:w-[1440px] mx-auto px-4 bg-[#F8F8F8]">
+    <section className="py-2 pb-15 w-full xl:w-full md:w-[768px] sm:w-[412px] lg:w-[1440px] mx-auto px-4 bg-[#F8F8F8]">
       <div className="max-w-[1124px] mx-auto">
         {/* Header */}
         <div className="text-center mt-5 mb-6 lg:mb-16">
@@ -18,8 +18,8 @@ export default function ServicesShowcase() {
           </div>
 
           <h2 className="text-[#1B1B1B] w-full sm:w-[412px] lg:w-[757px] mx-auto font-semibold robotoText lg:text-[48px] text-[32px] mb-1 tracking-tight">
-            What we bring <br className="block lg:hidden" />
-            to your table <br className="block lg:hidden" />
+            What we bring <br className="block md:hidden" />
+            to your table <br className="block md:hidden" />
           </h2>
         </div>
 
